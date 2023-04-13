@@ -1,0 +1,1080 @@
+<!doctype html><html class="no-js" lang="en"> <html xmlns:str="http://exslt.org/strings"><head><META http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>5 C programming books for beginners and experts | TechGig</title><link rel="canonical" href="https://content.techgig.com/career-advice/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms" /><link rel="amphtml" href="https://content.techgig.com/career-advice/5-c-programming-books-for-beginners-and-experts/amp_articleshow/90325737.cms"><meta http-equiv="Last-Modified" content="Saturday, 18 February, 2023  05:44:29PM"><meta name="description" content="Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts,"><meta name="keywords" content="programming language, programming books, learning and development, career advice, c programming language"><meta name="twitter:card" value="summary_large_image"><meta name="twitter:site" value="@techgigdotcom"><meta name="twitter:url" content="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms"><meta name="twitter:title" content="5 C programming books for beginners and experts"><meta name="twitter:description" content="Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts,"><meta name="twitter:image" content="https://contentstatic.techgig.com/photo/90325737/5-c-programming-books-for-beginners-and-experts.jpg?41227"><meta name="news_keywords" content="programming books, c programming language, programming language, learning and development, career advice"><meta content="TechGig" property="og:site_name"><meta content="article" property="og:type"><meta content="206991022695378" property="fb:app_id"><meta property="og:title" content="5 C programming books for beginners and experts"><meta property="og:url" content="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms"><meta property="og:image" content="https://contentstatic.techgig.com/photo/90325737/5-c-programming-books-for-beginners-and-experts.jpg?41227"><meta propert="og:description" content="Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts,"><meta name="website" content="https://content.techgig.com"><meta name="robots" content="NOODP"><script>
+var pageName = 'articleshow',pagename = 'articleshow',event_section = 'articleshow',event_category = 'Miscellaneous page';
+/* most important part handle wih care*/
+/*var cssId = 'commonCss';
+if (!document.getElementById(cssId))
+{var head  = document.getElementsByTagName('head')[0];var link  = document.createElement('link');link.id   = cssId;link.rel  = 'stylesheet';link.type = 'text/css';try{link.href = document.getElementById('commonStyle').getAttribute('href')}catch(e){ link.href =  '/css_combined/minify-1,version-2,pagename-'+pagename+'.cms';}head.appendChild(link);};*/
+/* most important part handle wih care*/
+function readCookie(name) {
+var nameEQ = name + "=";var ca = document.cookie.split(';');for(var i=0;i < ca.length;i++) { var c = ca[i];while (c.charAt(0)==' ') c = c.substring(1,c.length);if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);}return null;}
+function eraseCookie(name){createCookie(name,"",-1);}
+function createCookie(name,value,days) {
+if (days) {var date = new Date();date.setTime(date.getTime()+(days*24*60*60*1000));var expires = "; expires="+date.toGMTString();}
+else var expires = "";document.cookie = name+"="+value+expires+"; path=/";}
+var comparedate = new Date('Tue Jan 31 2017 08:00:00');
+var startDate = new Date('Mon Jul 12 2018 10:00:00');
+var endDate = new Date('Tue Jul 12 2018 16:00:00');
+var startTime = startDate.getTime();
+var endTime = endDate.getTime();
+var comparetime = comparedate.getTime();
+var ddate = new Date();
+var dtime = ddate.getTime();
+var link = window.location.href;
+var widthua = document.documentElement.clientWidth || window.innerWidth
+|| document.body.clientWidth;
+var linemobile = /Android|webOS|iPhone|iPod|iemobile|BlackBerry/i.test(navigator.userAgent) || widthua < 760;
+var lineweb = widthua > 760;
+var isIpad = /iPad/i.test(navigator.userAgent);
+var eventScroll = isIpad ? 'touchmove' : 'scroll';
+var euuser = readCookie("geo_continent");
+var is_euuser = false;
+if(euuser=='EU'){is_euuser=true;}
+if(dtime > startTime && !is_euuser && dtime <= endTime){
+if(readCookie("intsAd") != '' && lineweb && link.indexOf('inter=false')==-1 && window.location.href.indexOf('indiatimes.com') == -1){
+if((readCookie("intsAd") == null || readCookie("intsAd") < 3 ) && (pagename=='default_test' || pagename=='default') && (document.referrer.indexOf('defaultinterstitial') == '' || document.referrer.indexOf('defaultinterstitial') == -1)){
+window.location.href="https://content.techgig.com/defaultinterstitial.cms";
+//window.location.href="https://toidev9339.indiatimes.com/defaultinterstitial.cms";
+}
+}
+}
+var skAdType = 'outer'; // 'inbuilt';
+var skstartDate = new Date('Thu May 24 2018 10:00:00').getTime();
+var skendDate = new Date('Fri Mar 29 2019 10:00:00').getTime();
+var skdate = new Date().getTime();
+skAdType = (skdate > skstartDate && skdate <= skendDate) ? 'outer' : 'inbuilt';
+
+window.common = window.common || {};
+window.BIWeb = window.BIWeb || {};
+BIWeb.socialcount =  {};
+window.common.domain = document.domain;
+common.pageUrl = window.location.href;
+/* ipad/device viewport specific condition*/
+common.viewType = /Android|webOS|iPhone|iPod|iemobile|BlackBerry/i.test(navigator.userAgent) ? 'mobile' :'web';//web
+var isTouchDevice = (/Android|webOS|iPhone|ipad|iPod|BlackBerry/i.test(navigator.userAgent));
+var getTemplate = (pageName == 'articleshow' || pageName == 'articleshow_wf' || pageName == 'articleshow_launch' || pageName == 'terms' || pageName == 'privacypolicy' || pageName == 'contactus' || pageName == 'about' || pageName == 'contributors' || pageName == 'liveblog' || pageName =='advertise');
+           
+//var windowWidthMobile = $(window).width();
+var deviceEnable = true;//(/Android|webOS|iPhone|ipad|iPod|BlackBerry/i.test(navigator.userAgent));
+var tapEvent =  isTouchDevice ? 'touch' : 'mouseenter';
+var tapEventPhase = isTouchDevice ? 'click' : 'click';
+var emailRegex = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/;
+var adblockEmail = emailRegex.test(window.location.href);
+if(adblockEmail){var googletag=googletag||{};googletag.cmd=googletag.cmd||[];}
+var webEnable = true;
+//var getHeadDim = ($(window).width() > 727) ? [[728,90],[1003,90]] : [320, 50];
+//var ieEight = $.browser.msie && (parseInt($.browser.version) < 9);
+// Global url base
+var baseUrl = window.location.href.indexOf('jcmsdev.indiatimes.com')!= -1?"https://jcmsdev.indiatimes.com:9339":(window.location.href.indexOf('toidev.indiatimes.com')!= -1?"https://toidev9339.indiatimes.com":"https://content.techgig.com");
+// Mobile specific vars
+var isMobileOnly = {
+Android: function(){return navigator.userAgent.match(/Android/i);},BlackBerry: function() {return navigator.userAgent.match(/BlackBerry/i);},iOS: function() {return navigator.userAgent.match(/iPhone|iPod/i);},Opera: function() {return navigator.userAgent.match(/Opera Mini/i);},Windows: function() {return navigator.userAgent.match(/IEMobile/i);},any: function() {return (isMobileOnly.Android() || isMobileOnly.BlackBerry() || isMobileOnly.iOS() || isMobileOnly.Opera() || isMobileOnly.Windows());}};
+            
+filterNumber = function(str){return !isNaN(str)?str.replace(/.(?=(?:.{3})+$)/g, '$&,'):'';}
+var hdomain='content.techgig.com';
+function formatArtDate(str){var datestr = str;datestr = datestr.replace('IST','');return datestr;}
+
+/* load article description*/
+function loadDesc(param){var container = param.container;var url = param.url; $.get(url,function(d){$('[data-desc="'+container+'"]').html(d);})
+}
+
+
+
+function expandStryText(p){var a = p.id
+       if(a){document.getElementById(a+'read').style.height = 'auto';document.getElementById(a+'read').style.overflow = 'auto';document.getElementById(a).style.display = 'none';
+       }
+   }
+
+/* calls for jquery, js_combined */
+function loadjscssfile(filename, filetype){
+    if (filetype=="js"){ //if filename is a external JavaScript file
+        var fileref=document.createElement('script')
+        fileref.setAttribute("type","text/javascript")
+        fileref.setAttribute("src", filename)
+        fileref.setAttribute("async","true")
+    }
+    else if (filetype=="css"){ //if filename is an external CSS file
+        var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", filename)
+    }
+    if (typeof fileref!="undefined")
+        document.getElementsByTagName("head")[0].appendChild(fileref)
+}
+   
+   
+   //Always keep this code here
+    if(!adblockEmail){
+    var googletag = googletag || {};
+    googletag.cmd = googletag.cmd || [];
+    var unitDimension = [];
+    }
+    
+</script><script>
+ dataLayer = [];
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KVZHRQG');</script><meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"><link sizes="144x144" rel="apple-touch-icon-precomposed" href="https://contentstatic.techgig.com/photo/65688684.cms"><link sizes="114x114" rel="apple-touch-icon-precomposed" href="https://contentstatic.techgig.com/photo/65688691.cms"><link sizes="72x72" rel="apple-touch-icon-precomposed" href="https://contentstatic.techgig.com/photo/65688691.cms"><link rel="apple-touch-icon-precomposed" href="https://contentstatic.techgig.com/photo/65688704.cms"><link type="image/x-icon" rel="shortcut icon" href="https://contentstatic.techgig.com/photo/65688704.cms"><link type="text/css" href="/style_index/version-202,minify-1.cms" rel="stylesheet"><script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async="async"></script><script>
+            window.googletag = window.googletag || {cmd: []};
+            googletag.cmd.push(function() {
+            googletag.defineSlot('/22683326305/mobile-banner-cxo', [[300, 50], [300, 100], [300, 75], [320, 100]], 'div-gpt-ad-1655359504596-0').addService(googletag.pubads());
+            googletag.defineSlot('/22683326305/mid-unit-banner', [[250, 250], [250, 360], [336, 280], [300, 250]], 'div-gpt-ad-1656494573077-0').addService(googletag.pubads());
+    googletag.defineSlot('/22683326305/top-banner-learderboard', [[980, 120], [728, 90], [980, 90], [970, 90]], 'div-gpt-ad-1656575083546-0').addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+            });
+            </script><meta content="Rpgg_bqjxHnEgUzG1QOj41gOpD6bVXMFNUPTd5Uy-no" name="google-site-verification"><script type="application/ld+json">{
+              "@context":"http://schema.org",
+              "@type":"NewsArticle",
+              "headline":"5 C programming books for beginners and experts",
+              "keywords":"programming language, programming books, learning and development, career advice, c programming language",
+              "mainEntityOfPage":"https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms",
+              "thumbnailUrl":"https://contentstatic.techgig.com/thumb.cms?msid=90325737&width=300&resizemode=4",
+              "url":"https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms",
+              "datePublished":"20 Mar 2022, 06:01 AM",
+              "dateModified":"20 Mar 2022, 06:01 AM",
+              "description":"Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts,",
+              "image":{
+               "@type":"ImageObject",
+               "url":"https://contentstatic.techgig.com/thumb/msid-90325737,width-800,height-600,resizemode-4/90325737.jpg",
+               "width":800,
+               "height":600
+              }, 
+              "publisher":{
+               "@type":"Organization",
+                "name":"TechGig",
+                "logo":{
+                "@type":"ImageObject",
+                "width":600,
+                "height":60,
+                "url":"https://contentstatic.techgig.com/photo/68080327.cms"
+                }
+              },
+              "author": {
+                "@type":"Person",
+                "name":"Japsimran Kaur"}
+            }</script><script>var articleMsid = '90325737',articleVideo = '';</script><script src="https://agi-static.indiatimes.com/cms-common/ibeat.min.js" type="text/javascript"></script>
+                    <script>var w=window;if(w.performance||w.mozPerformance||w.msPerformance||w.webkitPerformance){var d=document;AKSB=w.AKSB||{},AKSB.q=AKSB.q||[],AKSB.mark=AKSB.mark||function(e,_){AKSB.q.push(["mark",e,_||(new Date).getTime()])},AKSB.measure=AKSB.measure||function(e,_,t){AKSB.q.push(["measure",e,_,t||(new Date).getTime()])},AKSB.done=AKSB.done||function(e){AKSB.q.push(["done",e])},AKSB.mark("firstbyte",(new Date).getTime()),AKSB.prof={custid:"750578",ustr:"",originlat:"0",clientrtt:"6",ghostip:"104.90.5.28",ipv6:false,pct:"10",clientip:"205.254.175.42",requestid:"1845e19b",region:"40773",protocol:"h2",blver:14,akM:"dscj",akN:"ae",akTT:"O",akTX:"1",akTI:"1845e19b",ai:"486121",ra:"false",pmgn:"",pmgi:"",pmp:"",qc:""},function(e){var _=d.createElement("script");_.async="async",_.src=e;var t=d.getElementsByTagName("script"),t=t[t.length-1];t.parentNode.insertBefore(_,t)}(("https:"===d.location.protocol?"https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js")}</script>
+                    </head><body><script src=""></script><noscript><iframe style="display:none;visibility:hidden" width="0" height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-KVZHRQG"></iframe></noscript><header id="header"><div class="tg-container clearfix"><div class="logo"><a href="https://www.techgig.com"><img alt="TechGig" height="23" width="97" src="https://static.techgig.com/Themes/Release/images/tg_style_new/tg-logo.svg" class="tg-small-logo"></a></div><nav id="main-navigation"><a href="javascript:void(0);" class="menu-btn visible-sm visible-xs"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 18 12" height="12px" width="18px"><defs/><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="Symbols"><g transform="translate(-19.000000, -18.000000)" id="Mobile-Header"><g transform="translate(16.000000, 12.000000)" id="Menu"><rect height="24" width="24" y="0" x="0" id="Rectangle"/><path fill-rule="evenodd" fill="#C2C2C2" id="Combined-Shape" d="M3,11 L21,11 L21,12.5 L3,12.5 L3,11 Z M3,6 L21,6 L21,7.5 L3,7.5 L3,6 Z M3,16 L21,16 L21,17.5 L3,17.5 L3,16 Z"/></g></g></g></svg></a><ul itemtype="http://www.schema.org/SiteNavigationElement" itemscope="" class="clearfix"><li class="visible-sm visible-xs"><div id="user-status-mob"><figure class="image"><img alt="profile pic" height="70" width="70" class="lazy" src="https://static.techgig.com/Themes/Release/images/default.png"></figure><div class="details"><h6>Hi Guest</h6><p>Profile Completeness</p><div class="progress"><div style="width: 0%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar"><span class="value"><span class="profile-completeness"></span>%</span></div></div></div></div></li><li itemprop="name" class="parent menu-item compete-items"><a rel="nofollow" href="javascript:void(0)" itemprop="url"><span class="menu-text">News</span><span class="icon"></span></a><ul id="news-width" class="child news-left-space clearfix"><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M16.667 2.5H3.333c-.925 0-1.666.742-1.666 1.667v11.666c0 .925.741 1.667 1.666 1.667h13.334c.925 0 1.666-.742 1.666-1.667V4.167c0-.925-.741-1.667-1.666-1.667m-12.5 3.333h4.166v5H4.167v-5m11.666 8.334H4.167V12.5h11.666v1.667m0-3.334H10V9.167h5.833v1.666m0-3.333H10V5.833h5.833V7.5z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></svg><span>Latest Tech News</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/trending-news">Trending</a><a class="tag-mainsubnav" href="https://content.techgig.com/top-stories">Top Stories</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-312 -97) translate(137 96) translate(175) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-312 -97) translate(137 96) translate(175) translate(0 1)" d="M16.667 18.39H3.333v-1.666c0-1.833 3-3.333 6.667-3.333s6.667 1.5 6.667 3.333m-10-9.167h6.666v.834c0 1.833-1.5 3.333-3.333 3.333-1.833 0-3.333-1.5-3.333-3.333m9.166-5c-.5 0-.833.333-.833.833v.833h-1.25l-1.167-2.5c-.083-.166-.166-.333-.333-.416-.417-.417-1.083-.5-1.667-.25L10 2.057l-.583-.25c-.584-.25-1.25-.166-1.667.25-.167.167-.25.334-.333.5l-1.167 2.5H5v-.833c0-.5-.333-.833-.833-.833-.5 0-.834.333-.834.833v.833c0 .917.75 1.667 1.667 1.667h10c.917 0 1.667-.75 1.667-1.667v-.833c0-.417-.334-.833-.834-.833z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>Developer Zone</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/developer-speak">Developer Speak</a><a class="tag-mainsubnav" href="https://content.techgig.com/technology-unplugged">Technology Unplugged</a><a class="tag-mainsubnav" href="https://content.techgig.com/software-download">Software Download</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-498 -97) translate(137 96) translate(361) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-498 -97) translate(137 96) translate(361) translate(0 1)" d="M18.333 10c0-4.617-3.716-8.333-8.333-8.333-.975 0-1.917.158-2.817.466l.584 1.617c.708-.283 1.45-.442 2.233-.442 3.675 0 6.692 3.017 6.692 6.692 0 3.675-3.017 6.692-6.692 6.692-3.675 0-6.692-3.017-6.692-6.692 0-.783.159-1.567.442-2.267l-1.617-.55c-.308.9-.466 1.842-.466 2.817 0 4.617 3.716 8.333 8.333 8.333s8.333-3.716 8.333-8.333M4.558 3.308c.709 0 1.275.592 1.275 1.25 0 .709-.566 1.275-1.275 1.275-.658 0-1.25-.566-1.25-1.275 0-.658.592-1.25 1.25-1.25M15 10c0-2.775-2.225-5-5-5s-5 2.225-5 5 2.225 5 5 5 5-2.225 5-5m-2.5 0l-4.167 2.5v-5" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>TG Player</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/podcasts">Podcast</a><a class="tag-mainsubnav" href="https://content.techgig.com/videos">Videos</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-625 -97) translate(137 96) translate(488) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-625 -97) translate(137 96) translate(488) translate(0 1)" d="M6.667 1.667C8.507 1.667 10 3.159 10 5H3.333c0-1.84 1.493-3.333 3.334-3.333M9.033 7.35l-.7 6.817H7.5V15c0 .92.746 1.667 1.667 1.667.92 0 1.666-.747 1.666-1.667v-4.167c0-1.84 1.493-3.333 3.334-3.333h1.666L15 8.333l.833.834h-1.666c-.92 0-1.667.746-1.667 1.666V15c0 1.84-1.492 3.333-3.333 3.333-1.841 0-3.334-1.492-3.334-3.333v-.833H5L4.3 7.35c-.408-.417-.708-.933-.858-1.517h6.45c-.15.584-.45 1.1-.859 1.517m-2.366.983c-.46 0-.834.373-.834.834 0 .46.373.833.834.833.46 0 .833-.373.833-.833 0-.46-.373-.834-.833-.834z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>Leader's Speak</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/cio-speak">CIO Speak</a><a class="tag-mainsubnav" href="https://content.techgig.com/cto-talk">CTO Talk</a><a class="tag-mainsubnav" href="https://content.techgig.com/expert-opinion">Expert Opinion</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-783 -97) translate(137 96) translate(646) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-783 -97) translate(137 96) translate(646) translate(0 1)" d="M9.167 5.417v2.358L6.942 10l2.225 2.225v2.358L4.583 10m6.25-4.642L15.475 10l-4.642 4.642v-2.359L13.117 10l-2.284-2.283M4.167 2.5c-.925 0-1.667.75-1.667 1.667v11.666c0 .92.746 1.667 1.667 1.667h11.666c.92 0 1.667-.746 1.667-1.667V4.167c0-.92-.746-1.667-1.667-1.667H4.167z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>Tech Beat</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=java&amp;sortorder=score">Java</a><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=android&amp;sortorder=score">Android</a><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=artificial intelligence&amp;sortorder=score">Artificial Intelligence</a><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=machine learning&amp;sortorder=score">Machine Learning</a><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=devops&amp;sortorder=score">DevOps</a><a class="tag-mainsubnav" href="https://content.techgig.com/searchresult.cms?query=cloud&amp;sortorder=score">Cloud</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-958 -97) translate(137 96) translate(821) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-958 -97) translate(137 96) translate(821) translate(0 1)" d="M16.667 5h-3.334V3.333c0-.92-.746-1.666-1.666-1.666H8.333c-.925 0-1.666.741-1.666 1.666V5H3.333c-.925 0-1.666.742-1.666 1.667v9.166c0 .92.746 1.667 1.666 1.667h13.334c.92 0 1.666-.746 1.666-1.667V6.667c0-.92-.746-1.667-1.666-1.667M8.333 3.333h3.334V5H8.333V3.333M10 7.5c1.15 0 2.083.933 2.083 2.083 0 1.15-.932 2.084-2.083 2.084-.553 0-1.082-.22-1.473-.61-.39-.391-.61-.921-.61-1.474 0-1.15.932-2.083 2.083-2.083m4.167 8.333H5.833v-1.041c0-1.15 1.867-2.084 4.167-2.084s4.167.934 4.167 2.084v1.041z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>Career Advice</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/technology-guide">Technology Guide</a></div></li><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><g><path transform="translate(-958 -97) translate(137 96) translate(821) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-958 -97) translate(137 96) translate(821) translate(0 1)" d="M16.667 5h-3.334V3.333c0-.92-.746-1.666-1.666-1.666H8.333c-.925 0-1.666.741-1.666 1.666V5H3.333c-.925 0-1.666.742-1.666 1.667v9.166c0 .92.746 1.667 1.666 1.667h13.334c.92 0 1.666-.746 1.666-1.667V6.667c0-.92-.746-1.667-1.666-1.667M8.333 3.333h3.334V5H8.333V3.333M10 7.5c1.15 0 2.083.933 2.083 2.083 0 1.15-.932 2.084-2.083 2.084-.553 0-1.082-.22-1.473-.61-.39-.391-.61-.921-.61-1.474 0-1.15.932-2.083 2.083-2.083m4.167 8.333H5.833v-1.041c0-1.15 1.867-2.084 4.167-2.084s4.167.934 4.167 2.084v1.041z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></g></svg><span>TG Prime</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/exclusive-reads">Exclusive Reads</a><a class="tag-mainsubnav" href="https://content.techgig.com/editor-picks">Editor's Pick</a></div></li><li><div><a style="color:#19171a;text-decoration:none" href="https://cio.techgig.com"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20" height="20" width="20"><defs><path d="M0 0h20v20H0z" id="i5jmc9k6va"/></defs><g fill-rule="evenodd" fill="none"><mask fill="#fff" id="kpy8s4i2fb"><use xlink:href="#i5jmc9k6va"/></mask><g fill-rule="nonzero" fill="#C2C2C2" mask="url(#kpy8s4i2fb)"><path d="m16.979 3.615-.823-2.348a.402.402 0 0 0-.244-.241.431.431 0 0 0-.351.025L10 4.071 4.44 1.05a.432.432 0 0 0-.352-.025.401.401 0 0 0-.243.241L3.02 3.615a.376.376 0 0 0 .069.369l3.294 3.913a.418.418 0 0 0 .322.146c.11 0 .214-.04.291-.114L10 5.075l3.003 2.854a.423.423 0 0 0 .314.114.418.418 0 0 0 .299-.146l3.294-3.914a.376.376 0 0 0 .069-.368zM8.663 9.609l-1.535 6.567c-.031.13.011.267.11.362l2.471 2.347A.423.423 0 0 0 10 19c.11 0 .214-.041.291-.115l2.471-2.347c.1-.095.142-.231.111-.362L11.337 9.61H8.663z"/><path d="M11.742 7.837 10 6.18 8.26 7.837l.347.989h2.789z"/></g></g></svg><span>CIO Corner</span></a></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://content.techgig.com/exclusive-reads">Exclusive Reads</a><a href="https://cio.techgig.com">CIO Home</a><a href="https://cio.techgig.com/industry-insights">Industry Insights</a><a href="https://cio.techgig.com/tech-bytes">Tech Bytes</a><a href="https://cio.techgig.com/rapidfire-with-cios">RapidFire with CIOs</a><a href="https://cio.techgig.com/tech-talk">Tech Talks</a><a href="https://cio.techgig.com/startup-news">Startup News</a><a href="https://cio.techgig.com/research">Research</a></div></li></ul></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://www.techgig.com/challenge" itemprop="url"><span class="menu-text">Challenges</span></a></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://www.techgig.com/practice" itemprop="url"><span class="menu-text">Practice</span></a></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://www.techgig.com/webinar" itemprop="url"><span class="menu-text">Webinars</span></a></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://www.techgig.com/skilltest" itemprop="url"><span class="menu-text">Skill Test</span></a></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://www.techgig.com/jobs" itemprop="url"><span class="menu-text">Jobs</span></a></li><li itemprop="name" class="menu-item parent"><a rel="nofollow" href="javascript:void(0)" itemprop="url"><span class="menu-text">Events</span><span class="icon"></span></a><ul class="child clearfix news-width-new" id="news-width"><li><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M16.667 2.5H3.333c-.925 0-1.666.742-1.666 1.667v11.666c0 .925.741 1.667 1.666 1.667h13.334c.925 0 1.666-.742 1.666-1.667V4.167c0-.925-.741-1.667-1.666-1.667m-12.5 3.333h4.166v5H4.167v-5m11.666 8.334H4.167V12.5h11.666v1.667m0-3.334H10V9.167h5.833v1.666m0-3.333H10V5.833h5.833V7.5z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></svg><span>TechGig Events</span></div><div class="inner-nav"><a class="tag-mainsubnav" target="_blank" href="https://www.techgig.com/codegladiators">Code Gladiators</a><a class="tag-mainsubnav" target="_blank" href="https://www.techgig.com/geekgoddess">Geek Goddess</a><a class="tag-mainsubnav" target="_blank" href="https://www.techgig.com/codewizards">Code Wizards</a></div></li></ul></li><li itemprop="name" class="menu-item parent"><a rel="nofollow" href="javascript:void(0);" itemprop="url"><span class="menu-text">Join Community</span><span class="icon"></span></a><ul class="child clearfix news-width-new" id="news-width"><li style="width:155px !important;"><div><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" height="20" width="20"><g fill-rule="evenodd" fill="none"><g><g><g><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M0 0H20V20H0z"/><path transform="translate(-137 -97) translate(137 96) translate(0 1)" d="M16.667 2.5H3.333c-.925 0-1.666.742-1.666 1.667v11.666c0 .925.741 1.667 1.666 1.667h13.334c.925 0 1.666-.742 1.666-1.667V4.167c0-.925-.741-1.667-1.666-1.667m-12.5 3.333h4.166v5H4.167v-5m11.666 8.334H4.167V12.5h11.666v1.667m0-3.334H10V9.167h5.833v1.666m0-3.333H10V5.833h5.833V7.5z" fill-rule="nonzero" fill="#C2C2C2"/></g></g></g></g></svg><span>Communities</span></div><div class="inner-nav"><a class="tag-mainsubnav" href="https://www.techgig.com/skill">Skill Communities</a><a class="tag-mainsubnav" href="https://www.techgig.com/company">Company Communities</a><a class="tag-mainsubnav" href="https://www.techgig.com/campus-ambassador">Campus Ambassador</a></div></li></ul></li><li itemprop="name" class="menu-item"><a class="tag-mainsubnav" href="https://engage.techgig.com/" itemprop="url"><span class="menu-text">For Business</span></a></li></ul><div id="page-overlay"></div></nav><div class="search-form-container1"><input id="searchid" class="popupinput" type="checkbox"><span class="search-btn"><label class="lblctrl" for="searchid"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 33 32" height="32" width="33"><defs><path d="M0 0H31.907V32H0z" id="pax36hxrsa"/></defs><g fill-rule="evenodd" fill="none"><g><g><g transform="translate(-1077 -12) translate(1077.846 12)"/><path transform="translate(-1077 -12) translate(1077.846 12)" d="M15.27 7c4.578 0 8.29 3.696 8.29 8.256 0 2.048-.75 3.923-1.99 5.366l3.143 3.135c.286.284.285.746 0 1.03-.286.284-.75.284-1.035 0l-3.154-3.146c-1.43 1.169-3.26 1.87-5.255 1.87-4.578 0-8.29-3.696-8.29-8.255C6.98 10.696 10.692 7 15.27 7zm0 1.457c-3.771 0-6.828 3.044-6.828 6.799 0 3.754 3.057 6.798 6.827 6.798s6.827-3.044 6.827-6.798c0-3.755-3.056-6.8-6.827-6.8z" fill-rule="nonzero" fill="#DADADA"/></g></g></g></svg></label></span><div class="search-box-new"><form class="search-form" data-form="search" action="/searchresult.cms"><input placeholder="Search" id="search" data-input="search" name="query" type="text"><input value="score" name="sortorder" type="hidden"><input value="Search" id="searchSubmit" type="submit"></form></div></div><p class="login-signup-links hidden-xs"><a class="btn-login tag-btn-login" href="https://www.techgig.com/register?tab=login&amp;return=https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms">Login / SignUp</a></p><p class="login-signup-links visible-xs"><a href="https://www.techgig.com/register.php?tab=login" class="user-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 20 20" height="20px" width="20px"><defs><circle r="10" cy="10" cx="10" id="path-1"/></defs><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="Symbols"><g transform="translate(-284.000000, -14.000000)" id="Mobile-Header"><g transform="translate(284.000000, 14.000000)" id="Group-2"><mask fill="white" id="mask-2"><use xlink:href="#path-1"/></mask><circle r="9.375" cy="10" cx="10" stroke-width="1.25" stroke="#C2C2C2"/><g mask="url(#mask-2)" id="Account"><g transform="translate(0.000000, 4.166667)"><rect height="20" width="20" y="0" x="0" id="Rectangle"/><g transform="translate(5.000000, 2.500000)" fill-rule="evenodd" stroke-width="1" id="Group"><path fill-rule="nonzero" fill="#C2C2C2" stroke-width="0.5" stroke="#C2C2C2" id="Shape" d="M8.31684028,7.81666597 C8.07986111,8.09294224 7.8203125,8.33318248 7.52690972,8.53738669 C9.05034722,8.58543474 10.0434028,9.91876807 10.0434028,11.5524017 L10.0434028,13.9427921 L0.789930556,13.9427921 L0.789930556,11.5524017 C0.789930556,9.91876807 1.78298611,8.58543474 3.30642361,8.53738669 C3.01302083,8.33318248 2.7421875,8.09294224 2.51649306,7.81666597 C0.936631944,8.23708639 0,9.7505999 0,11.5524017 L0,14.3632125 C0,14.5914407 0.180555556,14.7836329 0.394965278,14.7836329 L10.4383681,14.7836329 C10.6527778,14.7836329 10.8333333,14.5914407 10.8333333,14.3632125 L10.8333333,11.5524017 C10.8333333,9.7505999 9.89670139,8.23708639 8.31684028,7.81666597 Z"/><path fill-rule="nonzero" fill="#C2C2C2" stroke-width="0.25" stroke="#C2C2C2" id="Shape" d="M5.41666667,7.19616675 C3.58854167,7.19616675 2.08767361,5.61058117 2.08767361,3.65262321 C2.08767361,1.69466525 3.58854167,0.12109168 5.41666667,0.12109168 C7.24479167,0.12109168 8.74565972,1.70667727 8.74565972,3.66463522 C8.74565972,5.62259318 7.24479167,7.19616675 5.41666667,7.19616675 Z M5.41666667,0.961932521 C4.01736111,0.961932521 2.87760417,2.17514573 2.87760417,3.66463522 C2.87760417,5.15412471 4.01736111,6.35532591 5.41666667,6.35532591 C6.81597222,6.35532591 7.95572917,5.1421127 7.95572917,3.65262321 C7.95572917,2.16313372 6.81597222,0.961932521 5.41666667,0.961932521 Z"/></g></g></g></g></g></g></svg></a></p><div class="user-area"><div class="user-actions"><a rel="nofollow" class="avatar-pic" href="javascript:void(0);"><img alt="profile pic" height="70" width="70" class="lazy" src="https://static.techgig.com/Themes/Release/images/default.png"></a><ul id="userTgProfile" class="user-dropdown"><li class="profile-status"><a rel="nofollow" href="https://www.techgig.com/myprofile">Profile: <span class="profile-completeness"></span>%
+		  <div class="progress"><div style="width: 40%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar" class="progress-bar progress-bar-loggedin"><span class="sr-only profile-completeness"></span>% Complete
+		  </div></div></a></li><li><a href="https://www.techgig.com/manage_jobalerts">My Job Alerts</a></li><li><a href="https://www.techgig.com/my_applied_jobs">My Job Applications</a></li><li><a href="https://www.techgig.com/my_saved_jobs">My Saved Jobs</a></li><li><a href="https://www.techgig.com/my_posted_jobs">My Job Postings</a></li><li><a href="https://www.techgig.com/share_activity.php?share_type=assessment">Invite Friends</a></li><li><a rel="nofollow" href="https://www.techgig.com/user_settings.php">Settings</a></li><li><a rel="nofollow" href="https://www.techgig.com/logout.php">Logout</a></li></ul></div><div class="user-notifications hidden-xs"><a id="notification_number" class="notification-icon" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 18" height="18" width="16"><g fill-rule="evenodd" fill="#FFF"><g fill-rule="nonzero"><path d="M9.893 3.905c.59.477.942 1.549 1.033 3.12.233 4.14 3.114 6.795 3.516 7.147v-.287h-12.8v.285c.406-.354 3.282-3.01 3.515-7.147.088-1.563.446-2.641 1.034-3.118.435-.352.997-.381 1.534-.381h.628c.542 0 1.107.03 1.54.38zM8.333 2h-.666c-1.395 0-3.63.171-3.892 4.674C3.54 10.747.407 13.302.407 13.302c-.218.2-.348.47-.365.759v.739c0 .254.215.46.48.46h14.956c.265 0 .48-.206.48-.46v-.736a1.119 1.119 0 0 0-.365-.758s-3.133-2.56-3.368-6.63C11.963 2.172 9.728 2 8.333 2zM9.91 16.174H6.09c0 .84.717 1.826 1.592 1.826h.636c.875 0 1.592-.986 1.592-1.826z"/></g><path d="M6.057 2.476a2 2 0 1 1 3.886 0C9.42 2.18 8.741 2 8 2c-.741 0-1.42.18-1.943.476z"/></g></svg><span class="number"></span></a><ul id="notification-lists"><li><header><h5>Notification</h5></header></li><div id="tgNotificationChallenges"></div><div id="tgNotificationWebinars"></div></ul></div></div></div></header><div style="display:none" class="data-layer"></div><span style="display:none;" id="ppuser-info"></span><nav style="height:45px;" class="top-main-nav"><div class="wrap_new"><ul class="clearfix"><li><a class="homenav-link tag-submenu" href="/"><span class="homenav"></span></a></li><li><a class="tag-submenu" href="/technology">Technology</a></li><li><a class="tag-submenu" href="/hiring">Hiring</a></li><li><a class="tag-submenu" href="/upskilling-at-techgig">Upskilling Zone</a></li><li><a class="tag-submenu" href="/leaders-speak">Leader's Speak</a></li><li><a class="tag-submenu" href="/videos">Videos</a></li><li><a class="tag-submenu" href="/podcasts">Podcasts</a></li><li><a class="tag-submenu" href="/gadgets">Gadgets</a></li><li><a class="tag-submenu" href="/career-advice">Career Advice</a></li><li><a class="tag-submenu" href="/tg-prime">TG Prime</a></li><li><a class="tag-submenu" href="/web-stories">Web Stories</a></li><li><a class="tag-submenu" href="/expert-opinion">Expert Opinion</a></li><li class="more-nav"><span>More</span><ul class="child block-menu"><li><a href="/startups">Startups</a></li><li><a class="tag-submenu" href="/technology-unplugged">Technology Unplugged</a></li><li><a class="tag-submenu" href="/infographics">Infographics</a></li><li><a class="tag-submenu" href="https://content.techgig.com/searchresult.cms?query=Code%20Gladiators%202022"> Code Gladiators 2022 </a></li><li><a class="tag-submenu" href="/developer-zone">Developers Zone</a></li><li><a class="tag-submenu" href="/it-security">Internet &amp; Security</a></li><li><a class="tag-submenu" href="/software-download">Software Download</a></li><li><a class="tag-submenu" href="/polllist.cms">Poll</a></li><li><a class="tag-submenu" href="/technology-guide">Technology Guide</a></li><li><a class="tag-submenu" href="/leadership">Leadership</a></li></ul></li></ul></div></nav><style xmlns:str="http://exslt.org/strings">
+                            .topbanner_tg_inner{background:#fff; }
+                	        @media only screen and (max-width : 767px) {
+                	             .topbanner_tg{height:120px; background:#fff}
+                	              .topbanner_tg_inner{display:none} 
+                	        }
+                	 </style><div class="wrap topbanner_tg_inner"><div class="topbanner_tg1 clearfix"><div style="min-width: 728px; min-height: 90px; text-align:center" id="div-gpt-ad-1656575083546-0"><script>
+                        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1656575083546-0'); });
+                      </script></div></div></div><!--/top_banner_ads.cmspotime:25--><div xmlns:str="http://exslt.org/strings" class="gutter-banner" style="position:relative; margin: 0 auto;"><span class="gutter-banner-close">X</span><a style="position:fixed; top:110px; left:2px; text-align:left" target="_blank" href="https://bit.ly/3CQtBoY"><img alt="Maveric Systems" src="https://www.techgig.com/files/contest_upload_files/maveric-think-nxt-campaign-v2.jpg" style="border:#ccc solid 1px;" class="tag-getter-listing banner-gutter-m"></a><a style="position:fixed; top:110px; right:2px; text-align:right" target="_blank" href="https://bit.ly/3CQtBoY"><img alt="Maveric Systems" src="https://www.techgig.com/files/contest_upload_files/maveric-think-nxt-campaign-v2.jpg" style="border:#ccc solid 1px;" class="tag-getter-listing banner-gutter-m"></a></div><!--/gutterbanner_tg.cmspotime:25--><div id="Content" data-article-container="90325737"><div style="width:980px;" id="netspidersosh"></div><div data-scrollprocess="false" data-articleprocess="false" class="articlepage clearfix" data-articead-loaded="true" data-articlemsid="90325737" data-cms="denmark" data-articlecount="2" data-articleseo="career-advice/5-c-programming-books-for-beginners-and-experts" data-articlesec="Career Advice" data-tweethandle="@TJinsite1" data-shorturl="" data-ga-content="" data-ga-content-top="" data-promotitle="5 C programming books for beginners and experts" data-promokey="" data-ibeat-catids="2147478059,80646690" data-ibeat-pageid="90325737" data-ibeat-catname="Career Advice" data-ibeat-subcatname="" data-ibeat-artdate="20 Mar 2022, 06:01 AM" data-ibeat-author="Japsimran Kaur" data-ibeat-tag="" data-ibeat-agency="techgig.com" data-ibeat-contenttype="1"><div class="
+                                    wrap inside-body-section clearfix
+                             "><div class="full_breadcrumbs clearfix"><ul class="breadcrumb clearfix" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a id="bread_level0" href="https://content.techgig.com/" itemprop="item"><span itemprop="name">Home</span></a><meta itemprop="position" content="1"></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><a id="bread_level1" itemprop="item" href="https://content.techgig.com/Career-Advice"><span itemprop="name">Career Advice</span></a><meta itemprop="position" content="2"></li><li class="youhere">5 C programming books for beginners and experts</li></ul></div><div class="lhs immersive-fullwidth"><div class="main-content"><meta itemprop="datePublished" content="20 Mar 2022, 06:01 AM"><meta itemprop="dateModified" content="20 Mar 2022, 06:01 AM"><div itemprop="text"><article class="sec80646690"><div style="display:none" id="navMediawire"></div><script type="text/javascript">
+                                                    var navMediawire = "#navMediawire";
+                                                    if(window.location.search.indexOf("backto=1") !== -1) {
+                                                        $(navMediawire).css({ display: "block" });
+                                                    }
+                                                </script><span class="social-icon-blk"><div class="social-plugins-bx"><div data-wrapper="socialShare" class="blk leftsocial social-plugins" id="social-plugins"><h3>Share this </h3><a data-social-share="facebook" class="" data-title="5 C programming books for beginners and experts" data-link="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms" gatrack="Social buttons top##Click on facebook"><i class="fbShare-container social_share_handler"></i><span>Facebook </span></a><a data-social-share="linkedin" class="" data-title="5 C programming books for beginners and experts" data-link="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms" gatrack="Social buttons top##Click on linkedin"><i class="linkedinShare-container social_share_handler"></i><span>Linkedin </span></a><a data-social-share="whatsapp" class="" data-title="5 C programming books for beginners and experts" data-link="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms" gatrack="Social buttons top##Click on whatsapp"><i class="wtsappShare-container social_share_handler"></i><span>WhatsApp </span></a><a data-social-share="twitter" class="" data-title="5 C programming books for beginners and experts" data-link="https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms" gatrack="Social buttons top##Click on twitter"><i class="tweetShare-container social_share_handler"></i><span>Twitter </span></a></div></div></span><h1 class="article-click-heading" itemprop="headline" data-articletitle="" data-articlepage-social="start">5 C programming books for beginners and experts</h1><div class="clearfix infographic"><div data-nxtload="true" style="position:relative;" class="thumb-main-img"><span class="section-tag">Career Advice</span><div id="meetingImg" class="article-top-image"><img id="imgSmall" height="198" width="355" class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-355,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-90325682,width-355,resizemode-4/5-C-programming-books-for-beginners-and-experts.jpg?41227" alt="5 C programming books for beginners and experts" title="5 C programming books for beginners and experts"><figcaption></figcaption></div></div><div class="synopsis-section"><div class="artsyn-bx">Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts, that they can learn more about this language from.</div><div class="byline"><span class="tg-viewed icon-sp-rgt"><span><i class="common-sprit-icon view-icon"></i>1138 Views</span></span><span class="Date icon-sp-rgt"><i class="common-sprit-icon date-icon"></i>20 Mar 2022, 06:01 AM</span><br><a class="article-click-author" href="https://content.techgig.com/author_articles_all.cms?query=%22Japsimran Kaur%22&amp;author=%22Japsimran Kaur%22"><i class="common-sprit-icon author-icon"></i>Japsimran Kaur</a></div></div></div><div class="main-content article-content tgcompletearticles-hide" id="datatxt90325737read"><div data-den="denmark" class="main-article-content"><div class="Normal"><img alt="" onerror="this.style.display='none;'" width="" class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,height-360/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/90325682.cms" title="" height=""><br>C is a <a href="https://content.techgig.com/top-5-programming-languages-that-are-in-demand-by-indian-tech-firms/articleshow/89952267.cms" data-type="tilCustomLink" target="_blank" style="user-select: auto;">programming language</a> that was created in 1969 with an agenda of creating a <keyword keytype="General" smid="0" usetype="2" botkeyword="false" source="Orion" keywordseo="programming-language" actualkeyword="programming language">programming language</keyword> that is easy to understand, learn, and write. This programming language is often referred to as the father of all modern programming languages. This programming language was created at the Bell Laboratories by Dennis Ritchie. <br><br>For programs requiring efficiency,<a href="https://content.techgig.com/top-c-programming-job-interview-questions-to-prepare-for-in-2022/articleshow/90134808.cms" data-type="tilCustomLink" target="_blank" style="user-select: auto;"> C programming language</a> has been the language of choice. This programming language is one of the most common programming languages that is used today. The <keyword keytype="General" smid="0" usetype="2" botkeyword="false" source="Orion" keywordseo="c-programming-language" actualkeyword="c programming language">c programming language</keyword> was originally designed as a system programming language to handle low-level tasks like I/O and memory management. This programming language was also designed to be portable. This implies that this programming language was written to be interpreted and not compiled. <br><br><div><div class="tgnativeadsvaluedisplay_new"></div></div><div class="clearfix"></div>Various individuals wish to get their hands on the C <a href="https://content.techgig.com/8-oldest-programming-languages-that-coders-still-use-in-2022/articleshow/89301533.cms" data-type="tilCustomLink" target="_blank" style="user-select: auto;">programming language</a>. For them, here are the top 5 C <keyword keytype="General" smid="0" usetype="2" botkeyword="false" source="Orion" keywordseo="programming-books" actualkeyword="programming books">programming books</keyword>, ideal for both beginners and experts, that they can learn more about this language from:<br><br><strong>1. C Programming Absolute Beginner&rsquo;s Guide</strong><br><em>Author: Greg Perry and Dean Miller</em><br>This book is designed for beginners who have never written a line of code and wish to learn C programming. This book begins with the fundamentals of programming, which are presented in an easy-to-understand manner, and then builds on that knowledge by introducing new topics in C programming. Each subject is described in detail, with code examples, so that you can completely grasp the concept by looking at the code rather than just reading about it.<br><br><strong>2. Learn C the Hard Way</strong><br><em>Author: Zed Shaw</em><br>Along with system memory, data structures, queues, stacks, and other topics, the book tackles secure coding, automated testing, debugging, breaking and hacking one's code, unlawful memory access, and many other intriguing topics. This book is aimed mostly at beginner programmers and users who have never worked with a programming language before.<br><br><strong>3. C Programming: A Modern Approach</strong><br><em>Author: K.N. King</em><br>In his book C Programming: A Modern Approach, K. N. King walks the reader through the fundamentals and more advanced capabilities of C. This book is a fantastic place to start learning C, as well as a useful refresher for people who already know the language but want to learn some advanced techniques. In the programming field, K. N. King is a well-known author.<br><br><strong>4. C Programming in easy steps, 5th Edition</strong><br><em>Author: Mike McGrath</em><br>C programming in easy steps, 5th Edition book is a complete guide to learning C programming, beginning with the fundamentals and advancing to more advanced topics. It's appropriate for beginners as well as people with some expertise who want to enhance their abilities.<br><br><strong>5. Computer Fundamentals and Programming in C</strong><br><em>Author: Reema Thareja</em><br>Computer Fundamentals and Programming in C is a book about computer basics and C programming. The book's primary goal is to teach readers how computers function as well as how to code in C. It also intends to educate readers on the fundamentals of C programming.<br><br><strong>Read more:<br><a class="related-articles" title="5 Best programming language books every developer must read" href="https://content.techgig.com/articleshow/90307674.cms" msid="90307674"><img height="60" width="60" class="lazy" alt="5 Best programming language books every developer must read" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,height-360/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-90307674/image.jpg"><h4>5 Best programming language books every developer must read</h4></a><br><a class="related-articles" title="5 Python programming books coders should not miss out in 2022" href="https://content.techgig.com/articleshow/89171466.cms" msid="89171466"><img height="60" width="60" class="lazy" alt="5 Python programming books coders should not miss out in 2022" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,height-360/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-89171466/image.jpg"><h4>5 Python programming books coders should not miss out in 2022</h4></a><br><a class="related-articles" title="Best JavaScript books to master your programming skills" href="https://content.techgig.com/articleshow/89217640.cms" msid="89217640"><img height="60" width="60" class="lazy" alt="Best JavaScript books to master your programming skills" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,height-360/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-89217640/image.jpg"><h4>Best JavaScript books to master your programming skills</h4></a><br><a class="related-articles" title="Top 9 YouTube channels for Python Developers in 2022!" href="https://content.techgig.com/articleshow/89016047.cms" msid="89016047"><img height="60" width="60" class="lazy" alt="Top 9 YouTube channels for Python Developers in 2022!" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,height-360/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-89016047/image.jpg"><h4>Top 9 YouTube channels for Python Developers in 2022!</h4></a></strong></div></div></div><div style="display:none;">
+{{}}
+                <div data-clone="embedgroup"><div class="embedarticle mediatypeimg" data-msid="90307674"><img class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/90307674.cms" title="" alt="" width="" height=""><a href="/5-Best-programming-language-books-every-developer-must-read/articleshow/90307674.cms"><h4>5 Best programming language books every developer must read</h4></a><div class="synopsis">Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts, that they can learn more about this language from.</div></div><div class="embedarticle mediatypeimg" data-msid="89171466"><img class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/89171466.cms" title="" alt="" width="" height=""><a href="/5-Python-programming-books-coders-should-not-miss-out-in-2022/articleshow/89171466.cms"><h4>5 Python programming books coders should not miss out in 2022</h4></a><div class="synopsis">Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts, that they can learn more about this language from.</div></div><div class="embedarticle mediatypeimg" data-msid="89217640"><img class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/89217640.cms" title="" alt="" width="" height=""><a href="/Best-JavaScript-books-to-master-your-programming-skills/articleshow/89217640.cms"><h4>Best JavaScript books to master your programming skills</h4></a><div class="synopsis">Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts, that they can learn more about this language from.</div></div><div class="embedarticle mediatypeimg" data-msid="89016047"><img class="lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-640,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/89016047.cms" title="" alt="" width="" height=""><a href="/Top-9-YouTube-channels-for-Python-Developers-in-2022/articleshow/89016047.cms"><h4>Top 9 YouTube channels for Python Developers in 2022!</h4></a><div class="synopsis">Various individuals wish to get their hands on the C programming language. For them, here are the top 5 C programming books, ideal for both beginners and experts, that they can learn more about this language from.</div></div></div></div><div style="display:none;" class="tracking-url90325737">https://techgig.com/generateHttpWebService-v2.php?tgtype=SAVE_NEWS_READ_LOGS&amp;news_id=90325737&amp;news_title=5 C programming books for beginners and experts&amp;news_sec=Career Advice&amp;tags=programming books,
+								c programming language,
+								programming language,
+								learning and development,
+								career advice,
+								&amp;news_url=https://content.techgig.com/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms&amp;ppuserinfo=</div><div class="AuthorBlock"><div class="clearfix"></div><div class="BlackBoardBlock blk more-articles" data-scroll="commentsarea-90325737"><div class="MoreBlk"><div id="commentHash" class="article-click-tags" article_tag="programming books,c programming language,programming language,learning and development,career advice,"><h3>Read more on:</h3><a href="/searchresult.cms?query=programming books">programming books</a><a href="/searchresult.cms?query=c programming language">c programming language</a><a href="/searchresult.cms?query=programming language">programming language</a><a href="/searchresult.cms?query=learning and development">learning and development</a><a href="/searchresult.cms?query=career advice">career advice</a></div></div></div></div><div class="next-story-blk "><h4>Up Next</h4><div class="next-story clearfix"><a href="/career-advice/top-front-end-development-skills-you-need-to-land-your-first-job/articleshow/90310608.cms"><span class="next-story-img"><img height="166" width="296" class="lazy" alt="Top Front End Development skills you need to land your first job" title="Top Front End Development skills you need to land your first job" src="https://contentstatic.techgig.com/photo/msid-65515035,width-600,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/photo/msid-90310608/Top-Front-End-Development-skills-you-need-to-land-your-first-job.jpg"></span><span class="next-story-title"><h5>Top Front End Development skills you need to land your first job</h5><span class="next-story-byline">19 Mar 2022, 07:30 AM</span><span class="next-link">View Detail</span></span></a></div></div><div class="hideonmobile"><!-- could not get data --> <!--/show_seealso.cms?msid=90325737&records=8&eventcategory=Miscellaneous pagepotime:20--></div><div class="clearfix" data-block="widget_end"></div></article></div><div data-articleshowajax-status="false" data-msid="90325737" data-articleshowajax="true" data-nextmsid="90310608" data-nexthref="/career-advice/top-front-end-development-skills-you-need-to-land-your-first-job/article_show/90310608.cms"></div></div></div><div class="rhs"><div xmlns:str="http://exslt.org/strings" xmlns:ext="http://exslt.org/common" class="rhs-most-popular story-rhs-listing"><h4>Top Stories</h4><ul class="list-stories clearfix"><li class="sec80646690"><a class="artlist-tracking1" artitle="Amazon ends WFH for employees; will follow hybrid work model" arevent="Article-Click" gatrack="Latest stories##Click on image pos_1" href="https://content.techgig.com/career-advice/amazon-ends-wfh-for-employees-will-follow-hybrid-work-model/articleshow/98039270.cms"><div class="com-main-img"><img height="91" width="170" class="story-image lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-170,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-98039270,width-150,resizemode-4/Amazon-ends-WFH-for-employees-will-follow-hybrid-work-model.jpg?36330" alt="Amazon ends WFH for employees; will follow hybrid work model" title="Amazon ends WFH for employees; will follow hybrid work model"></div><div class="com-stry-dtl"><span class="section-tag">80646690</span><h3 class="com-story-headline">Amazon ends WFH for employees; will follow hybrid work model</h3><span class="com-byline"><span class="com-story-auth"></span><span class="com-story-date" data-dateformat="18 Feb 2023, 02:04 PM">18 Feb 2023, 02:04 PM</span></span></div></a></li><li class="sec65437660"><a class="artlist-tracking1" artitle="Infosys in trouble for firing freshers" arevent="Article-Click" gatrack="Latest stories##Click on image pos_2" href="https://content.techgig.com/technology/infosys-in-trouble-for-firing-freshers/articleshow/98002799.cms"><div class="com-main-img"><img height="91" width="170" class="story-image lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-170,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-98002799,width-150,resizemode-4/Infosys-in-trouble-for-firing-freshers.jpg?4316" alt="Infosys in trouble for firing freshers" title="Infosys in trouble for firing freshers"></div><div class="com-stry-dtl"><span class="section-tag">65437660</span><h3 class="com-story-headline">Infosys in trouble for firing freshers</h3><span class="com-byline"><span class="com-story-auth"></span><span class="com-story-date" data-dateformat="17 Feb 2023, 12:08 PM">17 Feb 2023, 12:08 PM</span></span></div></a></li><li class="sec65437686"><a class="artlist-tracking1" artitle="Capgemini is hiring software engineers in India" arevent="Article-Click" gatrack="Latest stories##Click on image pos_3" href="https://content.techgig.com/hiring/capgemini-is-hiring-software-engineers-in-india/articleshow/98009833.cms"><div class="com-main-img"><img height="91" width="170" class="story-image lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-170,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-98009833,width-150,resizemode-4/Capgemini-is-hiring-software-engineers-in-India.jpg?692217" alt="Capgemini is hiring software engineers in India" title="Capgemini is hiring software engineers in India"></div><div class="com-stry-dtl"><span class="section-tag">65437686</span><h3 class="com-story-headline">Capgemini is hiring software engineers in India</h3><span class="com-byline"><span class="com-story-auth"></span><span class="com-story-date" data-dateformat="18 Feb 2023, 03:15 AM">18 Feb 2023, 03:15 AM</span></span></div></a></li><li class="sec65437660"><a class="artlist-tracking1" artitle="Laying off 7k employees was a very bad idea: Salesforce CEO" arevent="Article-Click" gatrack="Latest stories##Click on image pos_4" href="https://content.techgig.com/technology/laying-off-7k-employees-was-a-very-bad-idea-salesforce-ceo/articleshow/97978459.cms"><div class="com-main-img"><img height="91" width="170" class="story-image lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-170,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-97978459,width-150,resizemode-4/Laying-off-7k-employees-was-a-very-bad-idea-Salesforce-CEO.jpg?55646" alt="Laying off 7k employees was a very bad idea: Salesforce CEO" title="Laying off 7k employees was a very bad idea: Salesforce CEO"></div><div class="com-stry-dtl"><span class="section-tag">65437660</span><h3 class="com-story-headline">Laying off 7k employees was a very bad idea: Salesforce CEO</h3><span class="com-byline"><span class="com-story-auth"></span><span class="com-story-date" data-dateformat="16 Feb 2023, 04:07 PM">16 Feb 2023, 04:07 PM</span></span></div></a></li><li class="sec65437686"><a class="artlist-tracking1" artitle="Jobs at Microsoft for software engineers, apply now" arevent="Article-Click" gatrack="Latest stories##Click on image pos_5" href="https://content.techgig.com/hiring/jobs-at-microsoft-for-software-engineers-apply-now/articleshow/97979021.cms"><div class="com-main-img"><img height="91" width="170" class="story-image lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-170,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-97979021,width-150,resizemode-4/Jobs-at-Microsoft-for-software-engineers-apply-now.jpg?8930" alt="Jobs at Microsoft for software engineers, apply now" title="Jobs at Microsoft for software engineers, apply now"></div><div class="com-stry-dtl"><span class="section-tag">65437686</span><h3 class="com-story-headline">Jobs at Microsoft for software engineers, apply now</h3><span class="com-byline"><span class="com-story-auth"></span><span class="com-story-date" data-dateformat="17 Feb 2023, 03:15 AM">17 Feb 2023, 03:15 AM</span></span></div></a></li></ul></div><!--/most_popular.cms?&count=5&msid=65557347potime:3--><div style="height:360px;margin: 30px 0 20px 0;  padding:0 0 30px 0px;    border-bottom: 1px solid #eee; display:none" class="campus-login-banner"><a target="_blank" href="https://www.techgig.com/campus-ambassador"><img alt="Campus Ambassador - Become Leader of Coding Revolution | TechGig" src="https://www.techgig.com/files/contest_upload_files/campuss-banner-020722.png" height="360" width="100%"></a></div><div class="ladbanner-top" id="tg_ad-section90325737"><div class="targetbannerdisplay"></div></div><div class="tg-clients-banners-rhs"><div class="tg-clients-banners" id="tg_ad-section90325737"><div class="tg-clients-banners"><div xmlns:str="http://exslt.org/strings"><style>
+                   .tag-rhs-adbanner-content img{width:300px;}
+               </style><a target="_blank" href="https://bit.ly/3CQtBoY"><img style="width:300px !important" height="250" width="300" alt="Maveric Systems" data-lazy="https://www.techgig.com/files/contest_upload_files/maveric-think-ntxt-banner-rhs.jpg" class="tag-rhs-adbanner-content lazy"></a></div><!--/rhsbanner_tg.cmspotime:22--></div></div></div><div class="leaders-speak"><h4>Leader's speak</h4><div xmlns:str="http://exslt.org/strings" xmlns:ext="http://exslt.org/common" class="slide-main-bx"><ul class="list-stories clearfix"><li class="sec65437630"><a class="artlist-tracking1" artitle="Blessen Philip, Senior Design Manager, 3M talks about crucial skills of  AI, AR, and VR that techies should have" arevent="Article-Click" title="Blessen Philip, Senior Design Manager, 3M talks about crucial skills of  AI, AR, and VR that techies should have" gatrack="widget home ##Click on title pos_1" href="https://content.techgig.com/leadership/blessen-philip-senior-design-manager-3m-talks-about-crucial-skills-of-ai-ar-and-vr-that-techies-should-have/articleshow/97942456.cms"><div class="com-main-img"><img height="225" width="376" class="com-story-image com-main-img lazy" src="https://contentstatic.techgig.com/thumb/msid-65515035,width-376,resizemode-4/default-thumb.jpg" data-original="https://contentstatic.techgig.com/thumb/msid-97942456,width-400,resizemode-4/Blessen-Philip-Senior-Design-Manager-3M-talks-about-crucial-skills-of-AI-AR-and-VR-that-techies-should-have.jpg?14004" alt="Blessen Philip, Senior Design Manager, 3M talks about crucial skills of AI, AR, and VR that techies should have" title="Blessen Philip, Senior Design Manager, 3M talks about crucial skills of AI, AR, and VR that techies should have"></div><span class="section-tag">Leader's Speak  </span><div class="com-stry-dtl"><h3 class="com-story-headline">Blessen Philip, Senior Design Manager, 3M talks about crucial skills of  AI, AR, and VR that techies should have</h3><span class="com-story-syn"> In an in-depth conversation with TechGig, Blessen Philip, Senior Design Manager, 3M talks about the importance of AI, AR, and VR and how techies should can upskill themselves.</span></div><span class="com-byline"><span class="com-story-author"></span><span class="com-story-date" data-dateformat="15 Feb 2023, 01:22 PM">15 Feb 2023, 01:22 PM</span></span></a></li></ul></div><!--/common_widget_final.cms?type=articlelist&pageref=home&count=1&msid=65437630potime:2--></div><div class="tg-ad-main-container" id="tg_ad-section90325737"><div class="tg-services-banners-inner"><div style="display:none" class="tg-services-banners"><div class="tg-banner-blk tg-skills"><a class="tag-skilltest" href="https://www.techgig.com/skilltest?utm_source=ContentTGWebsiteBanner&amp;utm_medium=referral&amp;utm_campaign=ContentTGBanner_Skilltest" target="_blank"><div class="tg-banner-top"><img alt="TechGig Skill Tests" class="img-skills lazy" height="179" width="377" data-lazy="https://contentstatic.techgig.com/photo/89453139.cms"></div><div class="tg-banner-bot"><h4>Improve yourself with skill tests</h4><div class="tg-banner-txt">Take skill tests from 60+ topics and showcase your prowress to employers.</div><button class="tg-banner-btn">See all skill tests</button></div></a></div><div class="tg-banner-blk tg-webinars"><a class="tag-skilltest" href="https://www.techgig.com/webinar?utm_source=ContentTGWebsiteBanner&amp;utm_medium=referral&amp;utm_campaign=ContentTGBanner_Webinar" target="_blank"><div class="tg-banner-top"><img alt="TechGig Live Webinars" class="img-webinar" height="179" width="377" data-lazy="https://contentstatic.techgig.com/photo/89453132.cms"></div><div class="tg-banner-bot"><h4>Get Insights from webinars</h4><div class="tg-banner-txt">Watch Live Webinars on a wide range of topics relevant to the IT industry. </div><button class="tg-banner-btn">See all Webinars</button></div></a></div><div class="tg-banner-blk tg-community"><a class="tag-skilltest" href="https://www.techgig.com/company?utm_source=ContentTGWebsiteBanner&amp;utm_medium=referral&amp;utm_campaign=ContentTGBanner_Community " target="_blank"><div class="tg-banner-top"><img alt="TechGig Community" class="img-community" height="179" width="377" data-lazy="https://contentstatic.techgig.com/photo/89453166.cms"></div><div class="tg-banner-bot"><h4>Be a part of the community</h4><div class="tg-banner-txt">Take skill tests from 60+ topics and showcase your prowess to employers.  </div><button class="tg-banner-btn">See all Companies</button></div></a></div><div class="tg-banner-blk tg-practice-problems"><a class="tag-skilltest" href="https://www.techgig.com/practice?utm_source=ContentTGWebsiteBanner&amp;utm_medium=referral&amp;utm_campaign=ContentTGBanner_Practiceproblems" target="_blank"><div class="tg-banner-top"><img alt="Skill Tests" class="img-practise" height="179" width="377" data-lazy="https://contentstatic.techgig.com/photo/92106056.cms"></div><div class="tg-banner-bot"><h4>Practice Problems to help you stay prepared</h4><div class="tg-banner-txt">Pick any Skill to Practice from a wide range of options available. </div><button class="tg-banner-btn">See all Practice Problems</button></div></a></div></div></div></div></div></div><div class="art-vid-main-container" id="art_vid-section90325737"><div xmlns:str="http://exslt.org/strings" id="videoPageContainer" class="vidio-container-articleshow clearfix"><div style="height:210px; overflow:hidden" class="wrap clearfix"><h4>Trending Videos</h4><div class="articleshow-video-list clearfix" id="vidlist97050514"><figure id="vid_97050514"><a data-vid-seo="https://content.techgig.com/videos/national-startup-day-exclusive-interview-with-rohit-arora-ceo-and-co-founder-of-biz2credit-biz2x/videoshow/97050514.cms" data-vid-title="National Startup Day - Exclusive interaction with Rohit Arora, CEO and Co-founder of Biz2Credit &amp; Biz2X" href="/videos/national-startup-day-exclusive-interview-with-rohit-arora-ceo-and-co-founder-of-biz2credit-biz2x/videoshow/97050514.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-97050514,width-300,resizemode-4.cms" title="National Startup Day - Exclusive interaction with Rohit Arora, CEO and Co-founder of Biz2Credit &amp; Biz2X" alt="National Startup Day - Exclusive interaction with Rohit Arora, CEO and Co-founder of Biz2Credit &amp; Biz2X"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>National Startup Day - Exclusive interaction with Rohit Arora, CEO and Co-founder of Biz2Credit &amp; Biz2X</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_96418826"><a data-vid-seo="https://content.techgig.com/videos/rounding-up-the-biggest-tech-stories-and-tech-trends-of-the-year-2022/videoshow/96418826.cms" data-vid-title="Rounding up the biggest tech stories and tech trends of the year 2022" href="/videos/rounding-up-the-biggest-tech-stories-and-tech-trends-of-the-year-2022/videoshow/96418826.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-96418826,width-300,resizemode-4.cms" title="Rounding up the biggest tech stories and tech trends of the year 2022" alt="Rounding up the biggest tech stories and tech trends of the year 2022"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Rounding up the biggest tech stories and tech trends of the year 2022</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_96345801"><a data-vid-seo="https://content.techgig.com/videos/decoding-the-future-of-robotics-in-india/videoshow/96345801.cms" data-vid-title="Decoding the future of robotics in India" href="/videos/decoding-the-future-of-robotics-in-india/videoshow/96345801.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-96345801,width-300,resizemode-4.cms" title="Decoding the future of robotics in India" alt="Decoding the future of robotics in India"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Decoding the future of robotics in India</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_96172253"><a data-vid-seo="https://content.techgig.com/videos/why-india-has-a-long-way-from-having-self-driving-cars/videoshow/96172253.cms" data-vid-title="Why India has a long way from having self-driving cars?" href="/videos/why-india-has-a-long-way-from-having-self-driving-cars/videoshow/96172253.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-96172253,width-300,resizemode-4.cms" title="Why India has a long way from having self-driving cars?" alt="Why India has a long way from having self-driving cars?"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Why India has a long way from having self-driving cars?</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_95913823"><a data-vid-seo="https://content.techgig.com/videos/why-we-should-choose-python-for-ai-over-others/videoshow/95913823.cms" data-vid-title="Why we should choose Python for AI over others" href="/videos/why-we-should-choose-python-for-ai-over-others/videoshow/95913823.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-95913823,width-300,resizemode-4.cms" title="Why we should choose Python for AI over others" alt="Why we should choose Python for AI over others"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Why we should choose Python for AI over others</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_95886159"><a data-vid-seo="https://content.techgig.com/videos/ai-and-robotics-rise-of-autobots/videoshow/95886159.cms" data-vid-title="AI and robotics &amp; Rise of Autobots" href="/videos/ai-and-robotics-rise-of-autobots/videoshow/95886159.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-95886159,width-300,resizemode-4.cms" title="AI and robotics &amp; Rise of Autobots" alt="AI and robotics &amp; Rise of Autobots"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>AI and robotics &amp; Rise of Autobots</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_95712207"><a data-vid-seo="https://content.techgig.com/videos/back-to-basics-what-is-computational-thinking-algorithm/videoshow/95712207.cms" data-vid-title="Back to basics:  What is computational thinking &amp; algorithm?" href="/videos/back-to-basics-what-is-computational-thinking-algorithm/videoshow/95712207.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-95712207,width-300,resizemode-4.cms" title="Back to basics:  What is computational thinking &amp; algorithm?" alt="Back to basics:  What is computational thinking &amp; algorithm?"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Back to basics:  What is computational thinking &amp; algorithm?</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_95446676"><a data-vid-seo="https://content.techgig.com/videos/back-to-basics-whats-aiops-and-why-it-is-the-future-of-it-operations/videoshow/95446676.cms" data-vid-title="Back to basics: What's AIOps and why it is the future of IT operations" href="/videos/back-to-basics-whats-aiops-and-why-it-is-the-future-of-it-operations/videoshow/95446676.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-95446676,width-300,resizemode-4.cms" title="Back to basics: What's AIOps and why it is the future of IT operations" alt="Back to basics: What's AIOps and why it is the future of IT operations"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>Back to basics: What's AIOps and why it is the future of IT operations</h3></figcaption><span class="playicon-video"></span></div></a></figure><figure id="vid_95014030"><a data-vid-seo="https://content.techgig.com/videos/5-tech-gadgets-you-can-gift-to-your-loved-ones-this-diwali/videoshow/95014030.cms" data-vid-title="5 Tech gadgets you can gift to your loved ones this Diwali" href="/videos/5-tech-gadgets-you-can-gift-to-your-loved-ones-this-diwali/videoshow/95014030.cms"><img height="168" width="300" style="display: block;" class="lazy" data-lazy="https://contentstatic.techgig.com/thumb/msid-95014030,width-300,resizemode-4.cms" title="5 Tech gadgets you can gift to your loved ones this Diwali" alt="5 Tech gadgets you can gift to your loved ones this Diwali"><div class="oth-overlay"><figcaption class="slide-overlay"><h3>5 Tech gadgets you can gift to your loved ones this Diwali</h3></figcaption><span class="playicon-video"></span></div></a></figure></div></div></div><!--/video_artileshow.cmspotime:2--></div><div data-articlepage-end=""></div></div><div class="clearfix" id="ajaxcontent"><div class="clearfix" data-articleshowajax-status="false" data-article-container="90310608" id="curart90310608"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>Top Front End Development skills you need to land your first job</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90307674" id="curart90307674"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>5 Best programming language books every developer must read</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90283542" id="curart90283542"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>Tips and strategies to become the best data analyst</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90215723" id="curart90215723"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>Top 5 AI-based jobs for those who don't know how to code</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90205638" id="curart90205638"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>How to get a cybersecurity job without any experience</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90206632" id="curart90206632"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>These Python skills will help you get a high-paying job in 2022</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90200172" id="curart90200172"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>Do IT professionals wish to stay with their current employer? Find out now</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90196807" id="curart90196807"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>5 Skills every Java developer should learn to boost their career</b></span></div></div></div></div><div class="clearfix" data-articleshowajax-status="false" data-article-container="90195501" id="curart90195501"><div class="loadingblock ajaxarticleloading clearfix" style="display:none;"><div class="loadingnext"><div class="loadinggroup clearfix"><span class="loadingnextstory">
+						    Next Story:  
+							<b>Top 5 data science books that every beginner must read</b></span></div></div></div></div></div></div><div style="display:none;" id="articlelist" class="articlelist_container"><div class="article_nav_wrapper"><div style="display:none;" data-type="prev" class="article_nav prev"></div><div style="display:none;" data-type="next" class="article_nav next"></div></div><ul class="articles"><li data-articleno="1" class="active" title="5 C programming books for beginners and experts" data-msid="90325737"><a gatrack="Bottom pagination bar##Click on page 1" href="/5-c-programming-books-for-beginners-and-experts/articleshow/90325737.cms"><span class="cnt">1</span><span class="title">5 C programming books for beginners and experts</span></a></li><li class="disable" title="Top Front End Development skills you need to land your first job" data-msid="90310608" data-articleno="2"><a gatrack="Bottom pagination bar##Click on page 2" href="/top-front-end-development-skills-you-need-to-land-your-first-job/articleshow/90310608.cms"><span class="cnt">2</span><span class="title">Top Front End Development skills you need to land your first job</span></a></li><li class="disable" title="5 Best programming language books every developer must read" data-msid="90307674" data-articleno="3"><a gatrack="Bottom pagination bar##Click on page 3" href="/5-best-programming-language-books-every-developer-must-read/articleshow/90307674.cms"><span class="cnt">3</span><span class="title">5 Best programming language books every developer must read</span></a></li><li class="disable" title="Tips and strategies to become the best data analyst" data-msid="90283542" data-articleno="4"><a gatrack="Bottom pagination bar##Click on page 4" href="/tips-and-strategies-to-become-the-best-data-analyst/articleshow/90283542.cms"><span class="cnt">4</span><span class="title">Tips and strategies to become the best data analyst</span></a></li><li class="disable" title="Top 5 AI-based jobs for those who don't know how to code" data-msid="90215723" data-articleno="5"><a gatrack="Bottom pagination bar##Click on page 5" href="/top-5-ai-based-jobs-for-those-who-dont-know-how-to-code/articleshow/90215723.cms"><span class="cnt">5</span><span class="title">Top 5 AI-based jobs for those who don't know how to code</span></a></li><li class="disable" title="How to get a cybersecurity job without any experience" data-msid="90205638" data-articleno="6"><a gatrack="Bottom pagination bar##Click on page 6" href="/how-to-get-a-cybersecurity-job-without-any-experience/articleshow/90205638.cms"><span class="cnt">6</span><span class="title">How to get a cybersecurity job without any experience</span></a></li><li class="disable" title="These Python skills will help you get a high-paying job in 2022" data-msid="90206632" data-articleno="7"><a gatrack="Bottom pagination bar##Click on page 7" href="/these-python-skills-will-help-you-get-a-high-paying-job-in-2022/articleshow/90206632.cms"><span class="cnt">7</span><span class="title">These Python skills will help you get a high-paying job in 2022</span></a></li><li class="disable" title="Do IT professionals wish to stay with their current employer? Find out now" data-msid="90200172" data-articleno="8"><a gatrack="Bottom pagination bar##Click on page 8" href="/do-it-professionals-wish-to-stay-with-their-current-employer-find-out-now/articleshow/90200172.cms"><span class="cnt">8</span><span class="title">Do IT professionals wish to stay with their current employer? Find out now</span></a></li><li class="disable" title="5 Skills every Java developer should learn to boost their career" data-msid="90196807" data-articleno="9"><a gatrack="Bottom pagination bar##Click on page 9" href="/5-skills-every-java-developer-should-learn-to-boost-their-career/articleshow/90196807.cms"><span class="cnt">9</span><span class="title">5 Skills every Java developer should learn to boost their career</span></a></li><li class="disable" title="Top 5 data science books that every beginner must read" data-msid="90195501" data-articleno="10"><a gatrack="Bottom pagination bar##Click on page 10" href="/top-5-data-science-books-that-every-beginner-must-read/articleshow/90195501.cms"><span class="cnt">10</span><span class="title">Top 5 data science books that every beginner must read</span></a></li></ul></div><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&amp;display=swap"><link type="text/css" href="/slick_css/version-2,minify-1.cms" rel="stylesheet"><footer id="footer"><div class="wrap"><div class="footer-row"><div class="col-sm-4 col-m-6"><img alt="TechGig" class="tg-footer-logo" width="200" height="50" src="https://static.techgig.com/Themes/Release/images/tg_images/new-images/tech-gig-large.svg"><div class="footquick-nav"><ul class="nav-links clearfix row"><li class="col-md-4 col-sm-6 aboutlink"><a href="https://www.techgig.com/knowus/about-us" target="_blank">About Us</a></li><li class="col-md-6 col-sm-6 aboutlink"><a href="https://www.techgig.com/knowus/contact-us#tg-contact" target="_blank">Contact Us</a></li><li class="col-md-4 col-sm-6 aboutlink"><a href="https://www.techgig.com/knowus/in-the-press#in-press" target="_blank">In The Press</a></li><li class="col-md-6 col-sm-6 aboutlink"><a href="https://www.techgig.com/user/privacy" target="_blank">Privacy Policy</a></li><li class="col-md-4 col-sm-6 aboutlink"><a href="https://www.techgig.com/knowus/our-awards#our-awards" target="_blank">Our Awards</a></li><li class="col-md-6 col-sm-6 aboutlink"><a href="https://www.techgig.com/user/terms" target="_blank">Terms &amp; Conditions</a></li><li class="col-md-4 col-sm-6 aboutlink"><a href="https://www.techgig.com/upload-resume" target="_blank">Join Our Team</a></li><li class="col-md-6 col-sm-6 aboutlink"><a href="https://www.techgig.com/bugbounty" target="_blank">Bug Bounty Program</a></li></ul></div><h4>Follow TechGig</h4><div class="footer-sociable clearfix"><a rel="nofollow" class="facebook ctrlcenter" target="_blank" href="https://www.facebook.com/Techgig"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 7 16" height="16px" width="7px"><defs/><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none"><g fill-rule="nonzero" fill="#FFFFFF" id="Fb"><path d="M1.55086906,16 L4.65504056,16 L4.65504056,7.99913616 L6.72584009,7.99913616 L7,5.24263039 L4.65504056,5.24263039 L4.65828505,3.8622179 C4.65828505,3.14350502 4.72236385,2.75823345 5.69084589,2.75823345 L6.98539977,2.75823345 L6.98539977,0 L4.91378911,0 C2.42607184,0 1.55086906,1.33808444 1.55086906,3.58665371 L1.55086906,5.24176655 L0,5.24176655 L0,7.99913616 L1.55086906,7.99913616 L1.55086906,16 L1.55086906,16 Z"/></g></g></svg></a><a rel="nofollow" class="twitter ctrlcenter" target="_blank" href="https://twitter.com/techgigdotcom"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 15 12" height="12px" width="15px"><defs/><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none"><g fill-rule="nonzero" fill="#FFFFFF" id="Twitter"><path d="M9.39390958,0.14133012 C8.03923809,0.617727935 7.18309874,1.84691304 7.28085014,3.19185101 L7.31343394,3.71077028 L6.77172826,3.64698809 C4.79959376,3.40367086 3.07591073,2.57765217 1.61289811,1.18940531 L0.896869099,0.501187643 L0.712770628,1.00987027 C0.322579621,2.14298838 0.571845692,3.34067611 1.38481151,4.14543407 C1.81817605,4.59033451 1.72042465,4.6541167 0.973441029,4.3887513 C0.713585223,4.30449582 0.485498622,4.24071364 0.464319152,4.27221101 C0.388561817,4.34701728 0.648417623,5.31004956 0.854510159,5.69195525 C1.13636003,6.2218986 1.71064951,6.74003044 2.33951685,7.04791729 L2.87063279,7.29123452 L2.24258004,7.30147117 C1.63570677,7.30147117 1.6145273,7.31170782 1.6796949,7.53533919 C1.89637717,8.22355686 2.75251652,8.95508342 3.70640727,9.27241949 L4.37844814,9.49447599 L3.79356893,9.83386022 C2.92683985,10.3220696 1.9077815,10.5968842 0.888723149,10.6173575 C0.400780742,10.6275941 0,10.6701156 0,10.7024004 C0,10.8079166 1.32290229,11.4008547 2.09187997,11.6347227 C4.40044221,12.3229404 7.14236899,12.0260776 9.20166516,10.850438 C10.6646778,10.0133953 12.1276904,8.3503338 12.8111356,6.74003044 C13.1801472,5.88251437 13.5483441,4.31473247 13.5483441,3.56352005 C13.5483441,3.07609815 13.5809279,3.01231596 14.1878012,2.43040194 C14.5454084,2.09180514 14.8810215,1.72092354 14.9461891,1.61461989 C15.0545303,1.41303669 15.0431259,1.41303669 14.4908305,1.59335916 C13.5695236,1.91148266 13.4391884,1.86896121 13.8953616,1.39256339 C14.2309747,1.0539666 14.63257,0.438980325 14.63257,0.259445281 C14.63257,0.227947905 14.4704656,0.28070601 14.2855526,0.375985573 C14.0908644,0.482289218 13.6574998,0.641350968 13.3316618,0.735843096 L12.7435242,0.915378141 L12.2124083,0.565757265 C11.9199687,0.375198138 11.5085982,0.163378283 11.2911013,0.0995960965 C10.7379913,-0.0492290062 9.89244172,-0.0279682773 9.39390958,0.14133012 Z"/></g></g></svg></a><a rel="nofollow" class="linkedin ctrlcenter" target="_blank" href="https://www.linkedin.com/company/techgig-com"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 14 14" height="14px" width="14px"><defs/><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none"><g fill-rule="nonzero" fill="#FFFFFF" id="Linkedin"><path d="M0.242307692,4.64864865 L3.13923077,4.64864865 L3.13923077,14 L0.242307692,14 L0.242307692,4.64864865 Z M1.69615385,0 C2.62230769,0 3.37615385,0.756756757 3.37615385,1.68648649 C3.37615385,2.61621622 2.62230769,3.37297297 1.69615385,3.37297297 C0.764615385,3.37297297 0.0161538462,2.61621622 0.0161538462,1.68648649 C0.0161538462,0.756756757 0.764615385,0 1.69615385,0 Z M4.95923077,4.64864865 L7.73230769,4.64864865 L7.73230769,5.92972973 L7.77,5.92972973 C8.15769231,5.19459459 9.1,4.42162162 10.5107692,4.42162162 C13.44,4.42162162 13.9838462,6.35675676 13.9838462,8.87567568 L13.9838462,14 L11.0923077,14 L11.0923077,9.45405405 C11.0923077,8.36756757 11.0761538,6.97297297 9.59,6.97297297 C8.08230769,6.97297297 7.85615385,8.15675676 7.85615385,9.37297297 L7.85615385,14 L4.96461538,14 L4.95923077,4.64864865 Z"/></g></g></svg></a><a class="linkedin" target="_blank" href="https://join.slack.com/t/techgigcommunity/shared_invite/zt-19l4wehe8-XpieXDZ5D_~veXt0vhjisg"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 32 32" height="32px" width="32px"><g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none" id="Artboard"><g fill-rule="nonzero" class="scicon" fill="#FFFFFF" transform="translate(8.000000, 8.000000)" id="Group"><path id="Shape" d="M3.37311058,10.1146497 C3.37311058,11.044586 2.62211615,11.7961783 1.69291965,11.7961783 C0.76372315,11.7961783 0.0127287192,11.044586 0.0127287192,10.1146497 C0.0127287192,9.18471338 0.76372315,8.43312102 1.69291965,8.43312102 L3.37311058,8.43312102 L3.37311058,10.1146497 Z M4.21320605,10.1146497 C4.21320605,9.18471338 4.96420048,8.43312102 5.89339698,8.43312102 C6.82259348,8.43312102 7.57358791,9.18471338 7.57358791,10.1146497 L7.57358791,14.3184713 C7.57358791,15.2484076 6.82259348,16 5.89339698,16 C4.96420048,16 4.21320605,15.2484076 4.21320605,14.3184713 L4.21320605,10.1146497 Z"/><path id="Shape" d="M5.89339698,3.36305732 C4.96420048,3.36305732 4.21320605,2.61146497 4.21320605,1.68152866 C4.21320605,0.751592357 4.96420048,0 5.89339698,0 C6.82259348,0 7.57358791,0.751592357 7.57358791,1.68152866 L7.57358791,3.36305732 L5.89339698,3.36305732 Z M5.89339698,4.21656051 C6.82259348,4.21656051 7.57358791,4.96815287 7.57358791,5.89808917 C7.57358791,6.82802548 6.82259348,7.57961783 5.89339698,7.57961783 L1.68019093,7.57961783 C0.750994431,7.57961783 0,6.82802548 0,5.89808917 C0,4.96815287 0.750994431,4.21656051 1.68019093,4.21656051 L5.89339698,4.21656051 Z"/><path id="Shape" d="M12.6268894,5.89808917 C12.6268894,4.96815287 13.3778839,4.21656051 14.3070804,4.21656051 C15.2362768,4.21656051 15.9872713,4.96815287 15.9872713,5.89808917 C15.9872713,6.82802548 15.2362768,7.57961783 14.3070804,7.57961783 L12.6268894,7.57961783 L12.6268894,5.89808917 Z M11.786794,5.89808917 C11.786794,6.82802548 11.0357995,7.57961783 10.106603,7.57961783 C9.17740652,7.57961783 8.42641209,6.82802548 8.42641209,5.89808917 L8.42641209,1.68152866 C8.42641209,0.751592357 9.17740652,0 10.106603,0 C11.0357995,0 11.786794,0.751592357 11.786794,1.68152866 L11.786794,5.89808917 L11.786794,5.89808917 Z"/><path id="Shape" d="M10.106603,12.6369427 C11.0357995,12.6369427 11.786794,13.388535 11.786794,14.3184713 C11.786794,15.2484076 11.0357995,16 10.106603,16 C9.17740652,16 8.42641209,15.2484076 8.42641209,14.3184713 L8.42641209,12.6369427 L10.106603,12.6369427 Z M10.106603,11.7961783 C9.17740652,11.7961783 8.42641209,11.044586 8.42641209,10.1146497 C8.42641209,9.18471338 9.17740652,8.43312102 10.106603,8.43312102 L14.3198091,8.43312102 C15.2490056,8.43312102 16,9.18471338 16,10.1146497 C16,11.044586 15.2490056,11.7961783 14.3198091,11.7961783 L10.106603,11.7961783 Z"/></g></g></svg></a></div></div><div class="col-sm-2 col-xs-6 col-m1-6"><h4>About</h4><ul class="nav-links"><li><a href="https://www.techgig.com/codememo" target="_blank">Code Memo</a></li><li><a href="https://www.techgig.com/techgig-institution" target="_blank">TechGig Institution</a></li><li><a href="https://www.techgig.com/technical-profile" target="_blank">Technical Profile</a></li><li><a href="https://www.techgig.com/campus-ambassador" target="_blank">Campus Ambassadors</a></li><li><a href="https://www.techgig.com/get-hired" target="_blank">Get Hired</a></li><li><a href="https://www.techgig.com/people" target="_blank">Meet People</a></li><li><a href="https://www.techgig.com/webinar" target="_blank">Interact with IT industry experts</a></li><li><a href="https://www.techgig.com/skilltest" target="_blank">Assess your skills</a></li><li><a href="https://www.techgig.com/company" target="_blank">Know about top Companies</a></li><li><a href="https://www.techgig.com/tech-news" target="_blank">Read Top Tech News</a></li></ul></div><div class="col-sm-2 col-xs-6  col-m1-6"><h4>For Developers</h4><ul class="nav-links"><li><a href="https://www.techgig.com/become-expert" target="_blank">Become Skill Expert</a></li><li><a href="https://www.techgig.com/developer/coding-environment" target="_blank">Coding Environment</a></li><li><a href="https://www.techgig.com/developer/how-to-write-your-code" target="_blank">How to Write Your Code</a></li><li><a href="https://www.techgig.com/developer/create-your-problem" target="_blank">Create Your Problem</a></li><li><a href="https://www.techgig.com/practice" target="_blank">Practice Problems</a></li><li><a href="https://www.techgig.com/challenge" target="_blank">TechGig Challenges</a></li><li><a href="https://www.techgig.com/college-ranking" target="_blank">College Ranking</a></li><li><a href="https://www.techgig.com/code-a-thon" target="_blank">Organise Codeathon</a></li></ul></div><div class="col-sm-2 col-xs-6 col-m1-6 clearleft1"><h4>For Business</h4><ul class="nav-links"><li><h5>Hiring Solutions</h5></li><li><a href="https://engage.techgig.com/challenge" target="_blank">Challenges</a></li><li><a href="https://engage.techgig.com/talent-assessment" target="_blank">Talent Assessment</a></li><li><a href="https://engage.techgig.com/interview" target="_blank">Live Interviews</a></li><li><h5>Marketing Solutions</h5></li><li><a href="https://engage.techgig.com/webinars" target="_blank">Webinars</a></li><li><a href="https://engage.techgig.com/digital-assets" target="_blank">Digital Assets</a></li><li><a href="https://engage.techgig.com/brand-inventory" target="_blank">Brand Inventories</a></li><li><h5>Business Solutions</h5></li><li><a href="https://engage.techgig.com/hackathons" target="_blank">Hackathons</a></li><li><h5>Annual Events</h5></li><li><a href="https://engage.techgig.com/codegladiators" target="_blank">Code Gladiators</a></li><li><a href="https://engage.techgig.com/geekgoddess" target="_blank">Geek Goddess</a></li><li><a href="https://engage.techgig.com/codewizards" target="_blank">Code Wizards</a></li></ul></div><div class="col-sm-2 col-xs-6 col-m1-6 "><h4>Code Gladiators 2023</h4><ul class="nav-links"><li><a href="https://www.techgig.com/codegladiators/opencontest" target="_blank">Open Contest</a></li><li><a href="https://www.techgig.com/codegladiators/azure-women-rsquo-s-hackathon-2022" target="_blank">Azure Women&rsquo;s Hackathon 2023</a></li><li><a href="https://www.techgig.com/codegladiators/intelligent-virtual-assistants" target="_blank">Intelligent Virtual Assistants</a></li><li><a href="https://www.techgig.com/codegladiators/machine-learning" target="_blank">Machine Learning</a></li><li><a href="https://www.techgig.com/codegladiators/nttdata" target="_blank">NTTDATA</a></li></ul></div></div></div><div class="inner-footer"><div class="wrap"><p>Copyright &copy; Times Business Solutions (A Division of Times Internet Limited) 2023.</p></div></div></footer><div style="display:none" class="gdpr-info-2"><div class="wrap"><div class="footer-row"><div class="col-sm-10 col-md-11">
+            				    We've updated our <a class="underline" target="_blank" href="https://www.techgig.com/user/privacy">Privacy Policy</a> and <a class="underline" target="_blank" href="https://www.techgig.com/user/terms">Terms &amp; Conditions</a> to provide more security around your personal data. Please review &amp; agree.
+            				</div><div class="col-sm-2 col-md-1 text-right"><a class="btn button5 gdpr-btn-2" href="javascript:void(0);">I agree</a></div></div></div></div><div class="gdpr-info"><div class="wrap"><div class="footer-row"><div class="col-sm-10 col-md-11">
+        					This site uses cookies so that we can remember you and understand how you interact with our website. This allows us to improve and customize your browsing experience.  To find out more about the cookies we use, see our <a class="underline" target="_blank" href="https://www.techgig.com/user/privacy">Cookies Policy</a>.
+        				</div><div class="col-sm-2 col-md-1 text-right"><a class="btn button5 gdpr-btn" href="javascript:void(0);">OK</a></div></div></div></div><script src="https://tvid.in/sdk/loader.js" type="text/javascript"></script><script src="/jquery_lib/version-1,minify-1.cms" type="text/javascript"></script><script src="/commonjs/version-2,minify-1.cms" type="text/javascript"></script><script src="/slick_min_js/version-1,minify-1.cms" type="text/javascript"></script><script src="/lazyload_min_js/version-1,minify-1.cms" type="text/javascript"></script><script>
+							    jQuery(document).ready(function(){
+							        jQuery(".home-video-list figure:first-child").addClass("vid-active");
+                                    
+                                    
+                                        
+                                    
+                                    
+                                    
+                                    
+                                    $(".home-video-list a").click(function(e){
+                            			var _src = $(this).attr("href");
+                            			e.preventDefault();
+                            			$(".home-vid-player").html("");
+                            			$(".home-vid-player").append('<iframe src="'+ _src +'" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" style="width:100%;height:310px;background-color:#000000;background-image: url(https://contentstatic.techgig.com/photo/48419834.cms);background-repeat: no-repeat; background-size: 30px; background-position: 50% 50%;border: none;" id="vidHolder" data-player="kaltura" data-video="desktop" class="vidHolder"></iframe>');
+                            			jQuery(this).parent("figure").addClass("vid-active");
+                            			jQuery(this).parent("figure").siblings().removeClass("vid-active");
+                            		})
+                                });
+							</script><script>
+                $("img.lazy").lazyload();
+                 $("img.lazy").each(function() {
+                    $(this).attr("src", $(this).attr("original"));
+                    $(this).removeAttr("original");
+                });
+            </script><script>
+                
+        		//$(function(){
+        		//	if(sessionStorage.getItem("isgdpr") == null){
+        			//	$(".gdpr-info").addClass("open");
+        		//	}
+        		//	$(".gdpr-btn").click(function(){
+        			//	sessionStorage.setItem("isgdpr", "true");
+        			//	$(".gdpr-info").addClass("gclose");
+        				
+        		//	})
+        		// });
+        		
+        		$(function(){
+                    if(localStorage.getItem("isgdpr") == null && (getCookie('isgdpr')) != 'true'){
+                       $(".gdpr-info").addClass("open");
+                    }
+                    $(".gdpr-btn").click(function(){
+                        localStorage.setItem("isgdpr", "true");
+                        //$.cookie("isgdpr", "true", {expires: 2147483647,   path: '/', domain: '.techgig.com'});
+                        document.cookie = 'isgdpr=true; expires=' + new Date(2147483647 * 1000).toUTCString()+'path=/;domain=techgig.com';
+                        $(".gdpr-info").addClass("gclose");
+                    })
+                });
+                
+                $(function(){
+                 if(sessionStorage.getItem("isgdpr1") == null){
+                       $(".cg-ads-bottom").addClass("open1");
+                    }
+                    $(".cg-close-video").click(function(){
+                        sessionStorage.setItem("isgdpr1", "true");
+                        $(".cg-ads-bottom").removeClass("open1");
+                        $(".cg-ads-bottom").addClass("gclose1");
+                        $(".cg-ads-bottom").remove();
+                    })
+        		 }); 
+        	
+        	 
+        	
+            $(".gdpr-btn-2").on("click",function(){ 
+            	var ppinfo = $('body').attr("data-pinfo");           	    
+            		jQuery.ajax({
+            			url: "https://www.techgig.com/generateHttpWebService-v2.php?source=TGAND&type=SAVE_GDPR_RESPONSE&ppuserinfo="+ppinfo+"&gdpr_response=Y",
+            			type: "POST",
+            			success: function(gdprResult){
+            			
+            			    $(".gdpr-info-2").hide();
+            			
+            				if (gdprResult.gdpr_status == 'Y'){
+            					 $(".gdpr-info-2").hide();
+            				}
+            				else if (gdprResult.gdpr_status == 'N')
+            			{
+            					 $(".gdpr-info-2").show();
+            				}
+            				else {
+            				
+            				}
+            			},
+            		   // error: function (){
+            			//}
+            		});
+            	return false;
+            	 });
+
+        		
+	        </script><script>
+                jQuery(function(){
+        			jQuery("img.lazy").lazyload({
+                        effect : "fadeIn",
+                        failure_limit : 32
+                    });
+    
+                     //$('.article-content').find('img:first').addClass('art-first-img');
+  
+
+                    jQuery('.top-carousels').slick({
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: false,
+                      fade: true,
+                      autoplay: false,
+                      autoplaySpeed: 5000,
+                      asNavFor: '.top-carousel-thumb',
+                       responsive: [
+                            {
+                              breakpoint: 768,
+                              settings: {
+                              fade: false,
+                                arrows: true,
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }
+                          ]
+                    });
+                    jQuery('.top-carousel-thumb').slick({
+                      slidesToShow: 6,
+                      //slidesToScroll: false,
+                      asNavFor: '.top-carousels',
+                      dots: false,
+                      centerMode: false,
+                      infinite: false,
+                      vertical: true,
+                      focusOnSelect: true
+                    });
+                    jQuery('.story-carousal .list-stories').slick({
+                      slidesToShow: 3,
+                      slidesToScroll: 3,
+                      arrows: true,
+                       responsive: [
+                            {
+                              breakpoint: 768,
+                              settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                              }
+                            },
+                            {
+                              breakpoint: 480,
+                              settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                              }
+                            }
+                          ]
+                    });
+                     $('.tg-services-banners').css("display", "block");
+                    jQuery('.tg-services-banners').slick({
+                      lazyLoad: 'ondemand',
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: true
+                    });
+                    //$('.tg-clients-banners').css("display", "block");
+                    jQuery('.tg-clients-banners').slick({
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: true,
+                      autoplay: true,
+                      autoplaySpeed: 4000,
+                      lazyLoad: 'ondemand'
+                    });
+                    
+                   $('.topbanner_tg').css("display", "block");
+                    jQuery('.topbanner_tg').slick({
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: true,
+                      autoplay: true,
+                      autoplaySpeed: 4000,
+                    });
+                    jQuery('.tg_mobile_banner').slick({
+                      slidesToShow: 1,
+                      slidesToScroll: 1,
+                      arrows: true,
+                      autoplay: true,
+                      autoplaySpeed: 4000,
+                    });
+                  
+                    
+				      var vidSecId = $('.articleshow-video-list').parents('.art-vid-main-container').attr('id');
+				      //alert('#'+vidSecId + ' .articleshow-video-list');
+    							    jQuery('#'+vidSecId + ' .articleshow-video-list').slick({
+    							      lazyLoad: 'ondemand',
+                                      slidesToShow: 4,
+                                      slidesToScroll: 1,
+                                      arrows: true,
+                                      responsive: [
+                                            {
+                                              breakpoint: 768,
+                                              settings: {
+                                                slidesToShow: 2,
+                                                slidesToScroll: 1,
+                                                arrows: true
+                                              }
+                                            },
+                                            {
+                                              breakpoint: 480,
+                                              settings: {
+                                                slidesToShow: 1,
+                                                slidesToScroll: 1,
+                                                arrows: true
+                                              }
+                                            }
+                                          ]
+                                    });
+                
+                    
+                    jQuery( ".sec65437694 .section-tag" ).html("Internet");
+                    jQuery( ".sec65437692 .section-tag" ).html("It Security");
+                    jQuery( ".sec65437722 .section-tag" ).html("Books");
+                    jQuery( ".sec65437704 .section-tag" ).html("Leadership");
+                    jQuery( ".sec65437684 .section-tag" ).html("Social Media");
+                    jQuery( ".sec65437645 .section-tag" ).html("Mobile");
+                    jQuery( ".sec65437624 .section-tag" ).html("Gadgets");
+                    jQuery( ".sec65437686 .section-tag" ).html("Hiring");
+                    jQuery( ".sec65437660 .section-tag" ).html("Technology");
+                    jQuery( ".sec65437630 .section-tag" ).html("Leader's Speak");
+                    jQuery( ".sec65437680 .section-tag" ).html("Startups");
+                    jQuery( ".sec65437676 .section-tag" ).html("Ecommerce");
+                    jQuery( ".sec65437679 .section-tag" ).html("Expert Opinion");
+                    jQuery( ".sec74966332 .section-tag" ).html("Code Gladiators");
+                    jQuery( ".sec79127635 .section-tag" ).html("Upskill at TechGig");
+                    jQuery( ".sec79793262 .section-tag" ).html("Podcasts");
+                    jQuery( ".sec80646690 .section-tag" ).html("Career Advice");
+                    jQuery( ".sec81207451 .section-tag" ).html("Software Download");
+                    jQuery( ".sec80997535 .section-tag" ).html("CTO Talk");
+                    jQuery( ".sec80997447 .section-tag" ).html("CIO Speak");
+                    jQuery( ".sec80997371 .section-tag" ).html("Developer Speak");
+                    jQuery( ".sec80841185 .section-tag" ).html("Top Stories");
+                    jQuery( ".sec80840982 .section-tag" ).html("Trending News");
+                    jQuery( ".sec80840897 .section-tag" ).html("Techno Digest");
+                    jQuery( ".sec80646682 .section-tag" ).html("Developer Zone");
+                    jQuery( ".sec80629608 .section-tag" ).html("TG Prime");
+                    jQuery( ".sec80629548 .section-tag" ).html("Tech Beat");
+                    jQuery( ".sec80629548 .section-tag" ).html("Tech Beat");
+                    jQuery( ".sec65610614 .section-tag" ).html("Editor's Picks");
+                    jQuery( ".sec80997571 .section-tag" ).html("Technology Guide");
+                    jQuery( ".sec81039500 .section-tag" ).html("Technology Unplugged");
+                    
+
+                    $(document).on('click','#header .menu-btn, #coding-platform-head .question-list-menu',function(){
+			
+			if($(this).hasClass("less")) {
+				$(this).removeClass("less");
+				$("#container-wrap, body").removeClass("activeMenu");
+				
+			} else {
+				$(this).addClass("less");
+				$("#container-wrap, body").addClass("activeMenu");
+			}
+			
+            $("body").addClass("hideScroll");
+			$("#question-controller .scroll").height($(window).height() - 17);
+        });
+        $(document).on('click','#page-overlay',function(){
+            $("#container-wrap, body").removeClass("activeMenu");
+			$("body").removeClass("hideScroll");
+			$("#header .menu-btn,#coding-platform-head .question-list-menu").removeClass("less");
+        });
+        $(document).on('click','#user-info .user-actions-area .notification-btn',function(){
+			$(this).toggleClass("active");
+			return false;
+		});
+		
+	     $(document).on('click','.cube_close',function(){
+	        $('#cubewrapid').hide();
+         });
+         	
+          $(document).on('click','.gutter-banner-close',function(){
+	        $('.gutter-banner').hide();
+         });
+         $(document).on('click','.cube_2d_close',function(){
+	        $('#cube-2d-banner').hide();
+         });
+         
+         
+        });
+        
+          
+          
+          var purl = "https://www.techgig.com/generateHttpWebService-v2.php?source=TGAND&type=NEWS_CONTEST_RECOMMENDATION";
+          var isLogin = "n";
+          var isUserLogin = 0;
+      
+            $(document).ready(function() {
+                var queryString = window.location.search.substring(1);
+                //console.log(queryString);
+                const urlParams = new URLSearchParams(queryString);
+                if(urlParams.has('utm_medium') && urlParams.get('utm_medium') === 'email' && urlParams.has('utm_source') && urlParams.get('utm_source') === 'TG_batch'){
+        		    $.ajax({
+        		    	type: "GET",
+        		        //	url: "https://www.techgig.com/generateHttpWebService-v2.php?type=VALIDATE_AUTOLOGIN_TOKEN&"+window.location.search.substring(1),
+        			    //url: "https://dev.techgig.com/kuldeep/generateHttpWebService-v2.php?tgtype=VALIDATE_AUTOLOGIN_TOKEN",
+        			    //url:"https://www.techgig.com/generateHttpWebService-v2.php?tgtype=VALIDATE_TG_TOKEN",
+        			    url:"https://content.techgig.com/mailerttl.cms?"+queryString,
+        			    /*beforeSend: function (xhr) {
+                            xhr.setRequestHeader ('Authorization', 'Basic YWRtaW46YWRtaW4xMjM=');
+                        },*/
+        	    		data: {},
+        				success: function(data) {
+        					data = JSON.parse(data);
+        					if(data.status==1){
+        					    $('.profile-completeness').text(data.profile_complete);
+        					    $('.progress-bar-loggedin, .progress-bar').attr('aria-valuenow',data.profile_complete);
+        					    $('.progress-bar-loggedin, .progress-bar').css('width',data.profile_complete+'%');
+        					    $('#header').addClass('logged-in-user');
+        					    $('.main-content').removeClass('tgcompletearticles-hide');
+        					    $(".gdpr-info").addClass("gclose");
+        					    var cookiedata = data.cookie['ppuserinfo'];
+        					    //console.log("cookiedata"+ cookiedata);
+        					    $('#ppuser-info').html(cookiedata);
+        					    var expiretime =  '31104000' + new Date();
+        					    document.cookie = "ppuserinfo="+cookiedata+"; domain=.techgig.com; expires="+expiretime+"; path=/; secure=true";
+        					    document.cookie = "ppuserinfo="+cookiedata+"; domain=.content.techgig.com; expires="+expiretime+"; path=/; secure=true";
+        					    //document.cookie = "reauth_autologin="+data.cookie['reauth_autologin']+"; domain=.techgig.com; expires="+expiretime+"; path=/; secure=true";
+        					    document.cookie = "pa_login="+data.cookie['pa_login']+"; domain=.techgig.com; expires="+expiretime+"; path=/; secure=true";
+        					    document.cookie = "content_news="+data.cookie['content_news']+"; domain=.techgig.com; expires="+expiretime+"; path=/; secure=true";
+        			            loadNotificationData();
+        					} 
+        				
+        				}, error: function(xhr, status, error) {
+                            var err = JSON.parse(xhr.responseText);
+                            //console.log(err.Message);
+                        }
+        			});
+                }else{
+                
+                           // $(window).bind( "resize scroll load DOMContentLoaded", targetads);
+        		    $.ajax({
+        			    type: "GET",
+        			    url: "https://content.techgig.com/loginttl.cms",
+        			    data: {},
+        				success: function(data) {//console.log(data);
+        					data = JSON.parse(data);
+        					if(data.status==1){
+        					    $('.profile-completeness').text(data.profile_complete);
+        					    $('.progress-bar-loggedin, .progress-bar').attr('aria-valuenow',data.profile_complete);
+        					    $('.progress-bar-loggedin, .progress-bar').css('width',data.profile_complete+'%');
+        					    $('#header').addClass('logged-in-user');
+        					    //$('.main-content').removeClass('tgcompletearticles-hide');
+        					    //$('.read-more').hide();
+        					    $('.avatar-pic img').attr('src',data.picture);
+                                $('#user-status-mob .details h6').text(data.name);
+                                $('#ppuser-info').html(data.ppuserinfo);
+        					    loadNotificationData();
+        					    $(".gdpr-info").addClass("gclose");
+        					    
+        					   
+        					    $('body').addClass('tgprime-login').attr("data-pinfo",data.ppuserinfo);
+        					    
+        					   $('.data-layer').attr({userId:data.dataLayer.userID, userType:data.dataLayer.userType, userCompany:data.dataLayer.userCompany, userSkill:data.dataLayer.userSkill, userInstitute:data.dataLayer.userInstitute, userLocation:data.dataLayer.userLocation, userExp:data.dataLayer.userExp, userGender:data.dataLayer.userGender});
+        					    userLayerFunc();
+        				      }else{
+        				        window.articleFunc = window.articleFunc || [];
+        				        if(typeof window.articleFunc == "function"){
+        				            window.articleFunc();
+        				        }
+        				        
+        					    $(window).bind( "resize scroll load DOMContentLoaded", checkArticleOnScroll);
+        				      }
+        					  $(window).bind( "resize scroll load DOMContentLoaded", targetads);
+        				      if(data.dataLayer.userType=='student'){
+            					    $(".campus-login-banner").show();
+            					}
+        				      if(data.gdpr_status=='Y'){
+            					    $(".gdpr-info-2").hide();
+            					}
+            					if(data.gdpr_status=='N'){
+            					    $(".gdpr-info-2").show();
+        					}
+            					
+                
+                           // $(window).bind( "resize scroll load DOMContentLoaded", targetads);
+            				 
+        				}
+        			});
+        		}
+        		
+        	
+        		 
+		    });
+		    
+		    
+		    var targetMSID = "";
+		    function targetads(){
+		    //console.log(targetMSID,'hi',window.msid);
+		        if(targetMSID != window.msid){
+                    targetMSID = window.msid;
+                    articlemsid  = window.msid;
+        		    if(articlemsid == undefined){
+        		        return;
+        		    }
+        		    if(articlemsid == ""){
+        		        return;
+        		    }
+        		    
+        		   var _cArticleObj = $("[data-article-container='" + articlemsid + "']");
+        		     
+    		       if(_cArticleObj.find(".tg-native-ads").length){
+        		       return ;
+        		   }
+        		    
+            	   if ( $('body').hasClass('tgprime-login')){
+            		    var ppinfo = "";
+            		    if ($('body').hasClass('tgprime-login')){
+            		     ppinfo = $('body').attr("data-pinfo")
+            		     ppinfo = "&ppuserinfo="+ppinfo;
+            		    }
+            		    loginurl = "https://www.techgig.com/generateHttpWebService-v2.php?source=TGAND&type=TARGETTED_BANNER"+ppinfo;
+        		        rhsloggedads(loginurl);
+        		        
+        		        
+        		        purl = "https://www.techgig.com/generateHttpWebService-v2.php?source=TGAND&type=NEWS_CONTEST_RECOMMENDATION"+ppinfo;
+            		    isLogin = "y";
+            		    tgnativeads(purl,articlemsid);
+        		    }else{
+            	        tgnativeads(purl,articlemsid);
+        			}
+            	}
+    			
+		    }
+		
+		   
+		   // var cpostID = articleMsid;
+		    
+		    
+		    
+		    
+		    function loadNotificationData(){
+			    $.ajax({
+				    type: "GET",
+				    url: "https://content.techgig.com/notificttl.cms",
+				    data: {},
+					success: function(notificationData) {
+						notificationData = JSON.parse(notificationData);
+						if(notificationData.status==1){
+						var htmll ='<li><h6 class="clearfix"><a href="https://content.techgig.com" class="see-all">See All</a><i class="fa fa-newspaper-o" aria-hidden="true"></i>Tech News</h6><ul>';
+						    $.each(notificationData.data.news, function( index, value ) {
+						        htmll +='<li><p><a href="'+value.news_details_url+'">'+value.title+'</a></p></li>';
+						    });
+						        htmll +='</ul></li>';
+						        $("#tgNotificationNews").html(htmll);
+						        var html2 ='<li><h6 class="clearfix"><a href="https://www.techgig.com/challenge" class="see-all">See All</a><i class="fa fa-newspaper-o" aria-hidden="true"></i>Challenges</h6><ul>';
+						    $.each(notificationData.data.challenges, function( index, value ) {
+						        html2 +='<li><p><a href="'+value.season_url+'">'+value.title+'</a><br/><i class="fa fa-laptop" aria-hidden="true"></i> '+value.total_developers+' Developers</p></li>';
+						    });
+						        html2 +='</ul></li>';
+						        $("#tgNotificationChallenges").html(html2);
+						        var html3 ='<li><h6 class="clearfix"><a href="https://www.techgig.com/webinar" class="see-all">See All</a><i class="fa fa-newspaper-o" aria-hidden="true"></i>Webinar</h6><ul>';
+						    $.each(notificationData.data.webinars, function( index, value ) {
+						        html3 +='<li><p><a href="'+value.webinar_details_url+'">'+value.title+'</a><br/><i class="fa fa-calendar" aria-hidden="true"></i> '+value.webinar_date+'</p></li>';
+						    });
+						        html3 +='</ul></li>';
+						        $("#tgNotificationWebinars").html(html3);
+						}
+					}
+				});
+    		}
+    		
+    function setReadmore(argObj){
+        //console.log("Read more appended for: " + pastMsid);
+        var _curl = encodeURI(location.href);
+        var _readmore = '<p class="read-more-new"> <a href="https://www.techgig.com/register?tab=login&amp;return='+ _curl +'" class="button read-more-articles">Read More </a></p>';
+        var _readtargetNode = argObj; 
+        var _node = $(_readtargetNode).addClass("tgcompletearticleshide");
+        $(_readtargetNode).find(".read-more").hide();
+        if(!_node.find(".read-more-new").length){
+            _node.append(_readmore);
+        }
+    }
+    
+    
+    var pastMsid = "";
+    function checkArticleOnScroll(){
+        if(pastMsid != window.msid){
+	        var tgArticle = "";
+            tgArticle = getCookie("tgArticle")
+            pastMsid = window.msid;
+            if(isUserLogin == 0){
+                if (tgArticle == ""){
+        			var today = new Date();
+        			var expire = new Date();
+        			expire.setTime(today.getTime() + 3600000*24*7);
+                    setcookie("tgArticle",0, 7);
+                    setcookie("tgArticleCount",expire.toGMTString(), 17);
+                }else{
+                    if(tgArticle > 1){
+                        if(pastMsid != undefined){
+                            var cnode = $('#datatxt'+ pastMsid +'read');
+                            setReadmore(cnode); 
+                        }
+                    }
+                    else{
+                        tgArticle = parseInt(tgArticle);
+                        setcookie("tgArticle",++tgArticle, getCookie("tgArticleCount"),2);
+                    }
+                }
+            }
+	    }
+    }
+    
+	
+    function tgNativeadsvalue(result,articlemsid){
+            const tgNative = JSON.parse(result);
+            
+            var articleadcontainer = $("[data-article-container='" + articlemsid + "']");
+            if(articleadcontainer.length){
+            
+                if(tgNative.error){
+                    console.log(tgNative.error);
+                }else {
+                    if(tgNative.status  == "1"){
+                            if(isLogin == "y"){
+                                if (tgNative.response[0].category == '' ||  tgNative.response[0].category == null ){ 
+                                    html10 ='<div><div class="tg-native-ads"><div class="tg-native-logo"><img src="'+tgNative.response[0].logo_img+'"/></div><div class="tg-native-text"><h3>'+tgNative.response[0].title+'</h3><p>'+tgNative.response[0].category+'</p></div><div class="tg-native-button"><a class="tag-incontent-link" target="_blank" href="'+tgNative.response[0].action_url+'">Improve your skill</a></div></div></div><div class="clearfix"></div>'; 
+                                }
+                            else{
+                               html10 ='<div ><div class="tg-native-ads"><div class="tg-native-logo"><img src="'+tgNative.response[0].logo_img+'"/></div><div class="tg-native-text"><h3>'+tgNative.response[0].title+'</h3><p>'+tgNative.response[0].category+'</p></div><div class="tg-native-button"><a class="tag-incontent-link"  target="_blank" href="'+tgNative.response[0].action_url+'">Know More</a></div></div></div><div class="clearfix"></div>'; 
+                            }
+                        }
+                        if(isLogin == "n"){
+                            if (tgNative.response[0].category == '' ||  tgNative.response[0].category == null ){ 
+                                html10 ='<div><div class="tg-native-ads"><div class="tg-native-logo"><img src="'+tgNative.response[0].logo_img+'"/></div><div class="tg-native-text"><p>'+tgNative.response[0].category+'</p><h3>'+tgNative.response[0].title+'</h3></div><div class="tg-native-button"><a class="tag-incontent-link"  target="_blank" href="'+tgNative.response[0].action_url+'">Improve your skill</a></div></div></div><div class="clearfix"></div>';
+                            }
+                            else{
+                                html10 ='<div><div class="tg-native-ads"><div class="tg-native-logo"><img src="'+tgNative.response[0].logo_img+'"/></div><div class="tg-native-text"><p>'+tgNative.response[0].category+'</p><h3>'+tgNative.response[0].title+'</h3></div><div class="tg-native-button"><a class="tag-incontent-link" target="_blank" href="'+tgNative.response[0].action_url+'">Know More</a></div></div></div><div class="clearfix"></div>';
+                            }
+                        }
+                        //console.log( articleadcontainer.find(".tgnativeadsvaluedisplay_new"),html10)
+                        articleadcontainer.find(".tgnativeadsvaluedisplay_new").html(html10);
+                        // console.log(html10);
+                    }else {
+                       articleadcontainer.find(".tgnativeadsvaluedisplay_new").html("");
+                    }
+                }
+             }
+        }
+	    
+	    function tgnativeads(aurl,articlemsid){
+                var myHeaders = new Headers();
+                var requestOptions = {
+                  method: 'GET',
+                  headers: myHeaders,
+                  redirect: 'follow'
+                };
+                   fetch(aurl, requestOptions)
+                  .then(response => response.text())
+                  .then(result => tgNativeadsvalue(result,articlemsid))
+                  .catch(error => console.log('error', error));
+            }
+            
+        
+          function rhsLoggedvalue(result){
+            const rhsBanner = JSON.parse(result);
+            
+             var articleadcontainer = $("[data-article-container='" + articleMsid + "']");
+             
+            if(rhsBanner.error){
+                //console.log(rhsBanner.error);
+            }
+            else {
+              if(rhsBanner.status  == "1"){
+                  //if(isLogin == "y"){
+                   if ( $('body').hasClass('tgprime-login')){
+                        if (rhsBanner.response[0].html_code == '' ||  rhsBanner.response[0].html_code == null ){ 
+                            html11="<a href="+rhsBanner.response[0].redirect_url+">"+rhsBanner.response[0].image+"</a>"
+                        }
+                        else{
+                           html11 ="<div>"+rhsBanner.response[0].html_code+"</div>"; 
+                        }
+                     }
+                    articleadcontainer.find(".targetbannerdisplay").html(html11);
+                    _loadbanner();
+                    
+                  }
+                else {
+                    $(".targetbannerdisplay").html("");
+                }
+             }
+         }
+        
+
+         function rhsloggedads(aurl){
+                  var myHeaders = new Headers();
+                  var requestOptions = {
+                  method: 'GET',
+                  headers: myHeaders,
+                  redirect: 'follow'
+                };
+                   fetch(aurl, requestOptions)
+                  .then(response => response.text())
+                  .then(result => rhsLoggedvalue(result))
+                  .catch(error => console.log('error', error));
+            }
+        
+          function _loadbanner(){
+             if($(".ladbanner").length){
+                    $('.ladbanner').each(function(){
+        				  if(!$(this).hasClass("slick-initialized")){
+        				    //console.log("slick-initialized",$(this),articleMsid);
+        				     $(this).show().slick({
+                            infinite: false,
+                            autoplay: true,
+                            dots: true,
+                            arrows:false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                         });
+                        }
+        			});	
+                }
+            }
+            
+    		$(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
+                if(scroll >= 140) {
+                    $(".gutter-banner").addClass("gutter-banner-tp");
+                    $(".gutter-banner-close").addClass("gutter-banner-close-top");
+                } else {
+                    $(".gutter-banner").removeClass("gutter-banner-tp");
+                    $(".gutter-banner-close").removeClass("gutter-banner-close-top");
+                }
+            });
+            
+           //$(function(){
+              // $('.bottom-scroll-banner').animate({bottom:"0px"},600);
+			  	//$(".gdpr-btn").on("click", function(){
+			  	  //  $('.bottom-scroll-banner').delay(100).animate({bottom:"0px"},600);
+
+		        // });
+              // });  
+              // $(".bottom-scroll-close").on("click", function(){
+			//	$('.bottom-scroll-banner').hide("slow");
+			//	 });
+            //   setTimeout(function(){
+             //   $('.bottom-scroll-banner').addClass('bottom-opacity-1');
+             //  }, 2000);
+               
+                
+                //$(function(){
+                  //  var cookiedata = data.cookie['ppuserinfo'];
+                    // if (jQuery.cookie('cookiedata')) {
+                      //     $('.main-content').removeClass('tgcompletearticles-hide');
+                        //   tgPrime();
+                          // $('div').removeClass('tgcompletearticles-hide')
+                      //}
+                  //}); 
+                  
+                    
+                      $('.search-btn label').on('click', function(e){
+                            $(".search-box-new").toggle();
+                        });
+                        
+                        
+                        $('.search-form').submit(function() {
+                        if ($.trim($("#search").val()) === "") {
+                         $("#search").focus()
+                         return false;
+                         }
+                     });
+                     
+                     
+                      $(window).load(function() { 
+                	   $('.video-clients-ads-bottom').css("display", "block");
+                         if (window.localStorage.getItem('accept_cookies')) {
+                           $('.video-clients-ads-bottom').hide();
+                         }
+                    	$(".close-video").on("click", function(){
+                	         window.localStorage.setItem('accept_cookies', true);
+                             $('.video-clients-ads-bottom').remove();
+                            });
+                        }); 
+                
+            </script><script>
+                
+                    function setcookie(cookieName,cookieValue, dayValue,isString) {
+                    var isString = isString || "";
+            			var today = new Date();
+            			var expire = new Date();
+            			expire.setTime(today.getTime() + 3600000*24*dayValue);
+            			if(isString == ""){
+            			    document.cookie = cookieName+"="+encodeURI(cookieValue) + ";path=/;expires="+expire.toGMTString();
+            			    //console.log(cookieName,cookieValue, dayValue);
+            			}else{
+            			    document.cookie = cookieName+"="+encodeURI(cookieValue) + ";path=/;expires="+dayValue;
+            			}
+            		}
+		
+                    function getCookie(cname) {
+                      var name = cname + "=";
+                      var decodedCookie = decodeURIComponent(document.cookie);
+                      var ca = decodedCookie.split(';');
+                      for(var i = 0; i < ca.length; i++) {
+                       
+                        var c = ca[i];
+                        
+                        //console.log("ccccc"+ c);
+                        
+                        while (c.charAt(0) == ' ') {
+                          c = c.substring(1);
+                        }
+                        if (c.indexOf(name) == 0) {
+                          return c.substring(name.length, c.length);
+                        }
+                      }
+                      return "";
+                    }
+                    
+                    $(window).load(function() {
+                      var user=getCookie("ppuserinfo");
+                      console.info(user);
+                      if (user != "") {
+                        $('#ppuser-info').html(user);
+                      } 
+                    });
+                
+            </script><script>
+                $(window).load(function() {
+					var newsId = "90325737"
+                    var trackingUrlLoad1 = $(".tracking-url"+newsId).text();
+                    var trackingUrlLoad2 = $("#ppuser-info").text();
+                    var trackingUrlLoadMain = trackingUrlLoad1 + trackingUrlLoad2
+                    //console.info(trackingUrlLoadMain);
+                    $(".tracking-iframe").attr("src", trackingUrlLoadMain);
+                });					                     
+            </script><script>
+                  function userLayerFunc(){
+                     var userid = $('.data-layer').attr('userid') || '';
+                     var usertype = $('.data-layer').attr('usertype') || '';
+                     var usercompany = $('.data-layer').attr('usercompany') || '';
+                     var userskill = $('.data-layer').attr('userskill') || '';
+                     var userinstitute = $('.data-layer').attr('userinstitute') || '';
+                     var userlocation = $('.data-layer').attr('userlocation') || '';
+                     var userexp = $('.data-layer').attr('userexp') || '';
+                     var usergender = $('.data-layer').attr('usergender') || '';
+                     
+                    userLayer = {
+                    	'userID': userid,
+                    	'userType': usertype,
+                    	'userCompany': usercompany,
+                    	'userSkill': userskill,
+                    	'userInstitute': userinstitute,
+                    	'userLocation': userlocation,
+                    	'userExp': userexp,
+                    	'userGender': usergender, 
+                     };
+                     dataLayer.user_id = userid;
+                    // console.log(userLayer,"data layer 542");
+                    dataLayer.push(userLayer);
+                    window.articleFunc = window.articleFunc || [];
+                    
+			        if(typeof window.articleFunc == "function"){
+			            window.articleFunc();
+			        }
+                }
+                
+                //Article List  
+                $(".artlist-tracking").click(function(e){
+                var artitle = $(this).attr('artitle');
+                var arsection = $(this).attr('arsection');
+                var arevent = $(this).attr('arevent');
+                    var gaObj = {
+                    'event': arevent,
+                    'eventModel':{
+                    'article_name':artitle,
+                    'article_category':arsection,
+                    }
+                 }
+                // alert(JSON.stringify(gaObj));
+                dataLayer.push('event', 'Click', gaObj);
+                })
+                
+                  //Top Nav 
+                $(".tag-mainsubnav").click(function(e){
+                var nav_link = $(this).text();
+                    var gaObj = {
+                    'event': 'Top_Nav_Click',
+                    'eventModel':{
+                    'nav_link':nav_link,
+                    }
+                 }
+                // alert(JSON.stringify(gaObj));
+                dataLayer.push('event', 'Click', gaObj);
+                })
+
+               //Top Article List    
+               $(".artlist-tracking1").click(function(e){
+                var artitle = $(this).attr('artitle');
+                var arsection = $(this).find('.section-tag').text();
+                var arevent = $(this).attr('arevent');
+
+                    var gaObj = {
+                    'event': arevent,
+                    'eventModel':{
+                    'article_name':artitle,
+                    'article_category':arsection,
+                    }
+                 }
+                dataLayer.push('event', 'Click', gaObj);
+                })
+            </script><img style="opacity:0;" height="0" width="0" src="" class="tracking-iframe"><script src="/js_budget/minify-1,version-2.cms" type="text/javascript"></script><script src="https://www.googletagmanager.com/gtag/js?id=UA-1688637-43" async="async"></script><script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-1688637-43');
+</script><script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0066/1644.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script><script src="https://static.clmbtech.com/ase/2826/743/aa.js" type="text/javascript"></script><div style="text-align:center" class="bottom-scroll-banner"><div style="min-width: 300px; min-height: 50px;" id="div-gpt-ad-1655359504596-0"><script>
+                	googletag.cmd.push(function() { googletag.display('div-gpt-ad-1655359504596-0'); });
+                  </script></div></div><script>
+			    
+			    var articleViewList = [];
+			    var newsId = "90325737"
+			    
+			    
+			    window.articleFunc = function(cObj,v,msid){
+                    var cmsid = "";
+			        if(cObj == 1){
+			        var Article_name = v.find("[data-articletitle]").text();
+                    var Article_Author = v.find(".article-click-author").text();
+                    var ArticlePublished_Date = v.find(".byline .Date").text();
+                    var Article_Category = v.find(".main-content .section-tag").text();
+                    var Article_Tags = v.find(".article-click-tags").text(); 
+                    cmsid = msid.toString();
+                        
+                    //console.log("11",articleViewList.indexOf(msid),msid,articleViewList);
+                    }
+                    else{
+                     var Article_name = $('.article-click-heading').text();
+        			var Article_Author = $('.main-content .byline .article-click-author').text(); 
+        			var ArticlePublished_Date = $('.main-content .byline .Date').text();
+        			var Article_Category = $('.main-content .section-tag').text();
+        			var Article_Tags = $('.article-click-tags').attr('article_tag');
+        			//console.log("22",articleViewList.indexOf(msid),msid,articleViewList);
+        			cmsid = newsId;
+                    }
+
+        			var _gaObj = {
+        			 'event': 'Article_Viewed',
+        			 'eventModel':{
+        				'Article_name':Article_name,
+        				'Article_Author':Article_Author,
+        				'ArticlePublished_Date':ArticlePublished_Date,
+        				'Article_Category':Article_Category,
+        				'Article_Tags':Article_Tags,
+        				}
+        			}
+        			
+        			if(articleViewList.indexOf(cmsid) < 0){
+                        articleViewList.push(cmsid);
+                        window.dataLayer = window.dataLayer || [];
+        			    dataLayer.push(_gaObj);
+        			     //console.log("Success");
+                    }
+                   // console.log(articleViewList,"articleViewList");
+        			
+        			
+			    };
+			   
+                    
+			      
+            </script><script src="/requirejs/version-1,minify-1.cms" type="text/javascript"></script><script src="/tgjs/version-3,minify-1.cms" type="text/javascript"></script><script src="/articleshowjs/version-78,minify-1.cms" type="text/javascript"></script></body></html>
